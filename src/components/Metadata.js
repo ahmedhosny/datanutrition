@@ -22,7 +22,12 @@ class Metadata extends Component {
     const { data } = this.props;
     let entries = [];
     _.forEach(data, function(value, key) {
-      entries.push(<Entry name={key} value={data[key]} key={key} />);
+      const entry = _.includes(key, "url") ? (
+        <Entry name={key} value={data[key]} key={key} url={true} />
+      ) : (
+        <Entry name={key} value={data[key]} key={key} />
+      );
+      entries.push(entry);
     });
     return (
       <div>

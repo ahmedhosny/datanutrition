@@ -24,7 +24,7 @@ class Typo extends Component {
       },
       3: {
         fontSize: 36,
-        fontFamily: "HelveticaLTStd-Roman"
+        fontFamily: "HelveticaLTStd-Bold"
       },
       4: {
         fontSize: 42,
@@ -35,11 +35,30 @@ class Typo extends Component {
         fontFamily: "HelveticaLTStd-Bold"
       }
     };
-    const { content, type, position } = this.props;
-    console.log(position);
-    // const display = inline ? "inline" : "";
+    const { content, type, position, url } = this.props;
     const GTypography = glamorous.div(dict[type]);
-    return <GTypography style={{ float: { position } }}>{content}</GTypography>;
+    const paddingLeft = position === "right" ? 20 : 0;
+    const lineHeight = position === "right" ? 1.4 : 1;
+    const inner = url ? (
+      <a href={"http://" + content} target="_blank">
+        {" "}
+        {content}{" "}
+      </a>
+    ) : (
+      content
+    );
+    return (
+      <GTypography
+        style={{
+          textAlign: position,
+          flexGrow: 1,
+          paddingLeft: paddingLeft,
+          lineHeight: lineHeight
+        }}
+      >
+        {inner}
+      </GTypography>
+    );
   }
 }
 Typo.propTypes = {
@@ -48,13 +67,11 @@ Typo.propTypes = {
     PropTypes.number.isRequired
   ]),
   type: PropTypes.number.isRequired,
-  position: PropTypes.string.isRequired
-  // inline: PropTypes.bool.isRequired
+  position: PropTypes.string.isRequired,
+  url: PropTypes.bool.isRequired
 };
 Typo.defaultProps = {
-  position: "left"
-  // inline: true
+  position: "",
+  url: false
 };
 export default Typo;
-
-// display: "inline",

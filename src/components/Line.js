@@ -13,7 +13,7 @@ class Line extends Component {
   render() {
     const { thickness, offset } = this.props;
     const GDiv = glamorous.div({
-      height: thickness * 4,
+      height: thickness * 3,
       backgroundColor: "black",
       marginTop: 0,
       marginBottom: 10
