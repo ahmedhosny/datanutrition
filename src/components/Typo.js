@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import glamorous from "glamorous";
-import Typography from "material-ui/Typography";
+import { getInner } from "../utils/functions";
 
 /**
  * The component
@@ -27,26 +27,20 @@ class Typo extends Component {
         fontFamily: "HelveticaLTStd-Bold"
       },
       4: {
-        fontSize: 42,
+        fontSize: 50,
         fontFamily: "HelveticaLTStd-Bold"
       },
       5: {
-        fontSize: 48,
+        fontSize: 60,
         fontFamily: "HelveticaLTStd-Bold"
       }
     };
-    const { content, type, position, url } = this.props;
-    const GTypography = glamorous.div(dict[type]);
+    const { content, size, position, type, sub } = this.props;
+
+    const GTypography = glamorous.div(dict[size]);
     const paddingLeft = position === "right" ? 20 : 0;
-    const lineHeight = position === "right" ? 1.4 : 1;
-    const inner = url ? (
-      <a href={"http://" + content} target="_blank">
-        {" "}
-        {content}{" "}
-      </a>
-    ) : (
-      content
-    );
+    const lineHeight = position === "right" || sub ? 1.3 : 1;
+    const inner = getInner(type, content);
     return (
       <GTypography
         style={{
@@ -68,10 +62,12 @@ Typo.propTypes = {
   ]),
   type: PropTypes.number.isRequired,
   position: PropTypes.string.isRequired,
-  url: PropTypes.bool.isRequired
+  type: PropTypes.string.isRequired,
+  sub: PropTypes.bool.isRequired
 };
 Typo.defaultProps = {
   position: "",
-  url: false
+  type: "text",
+  sub: false
 };
 export default Typo;

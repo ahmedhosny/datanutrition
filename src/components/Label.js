@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import glamorous from "glamorous";
 import Card, { CardContent } from "material-ui/Card";
-import Metadata from "./Metadata";
+import MetaData from "./MetaData";
 import Header from "./Header";
+import Spacer from "./Spacer";
 
 /**
  * The component
@@ -29,7 +30,8 @@ class Label extends Component {
         <GCard>
           <GCardContent>
             <Header title={data.title} />
-            <Metadata data={data.metadata} />
+            <Spacer />
+            <MetaData data={data.metadata} />
           </GCardContent>
         </GCard>
       </div>

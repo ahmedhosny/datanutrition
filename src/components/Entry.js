@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Glamorous from "glamorous";
 import Line from "./Line";
 import Typo from "./Typo";
+import { capitalizeFirstLetter } from "../utils/functions";
 /**
  * The component
  * @type {Object}
@@ -13,18 +14,29 @@ class Entry extends Component {
    * @return {ReactElement}
    */
   render() {
-    const { name, value, url } = this.props;
+    const { name, value, type, sub, last } = this.props;
     const GDiv = Glamorous.div({
       display: "flex",
       verticalAlign: "bottom"
     });
+    console.log(last);
     return (
       <div>
         <GDiv>
-          <Typo content={name} type={3} />
-          <Typo content={value} type={2} position={"right"} url={url} />
+          <Typo
+            content={capitalizeFirstLetter(name)}
+            size={sub ? 2 : 3}
+            sub={sub}
+          />
+          <Typo
+            content={value}
+            size={2}
+            position={"right"}
+            type={type}
+            sub={sub}
+          />
         </GDiv>
-        <Line thickness={1} />
+        {last ? null : <Line thickness={sub ? 1 : 3} />}
       </div>
     );
   }
@@ -35,9 +47,13 @@ Entry.propTypes = {
     PropTypes.string.isRequired,
     PropTypes.number.isRequired
   ]),
-  url: PropTypes.bool.isRequired
+  type: PropTypes.string.isRequired,
+  sub: PropTypes.bool.isRequired,
+  last: PropTypes.bool.isRequired
 };
 Entry.defaultProps = {
-  url: false
+  type: "text",
+  sub: false,
+  last: false
 };
 export default Entry;

@@ -11,22 +11,17 @@ class Line extends Component {
    * @return {ReactElement}
    */
   render() {
-    const { thickness, offset } = this.props;
+    const { thickness } = this.props;
     const GDiv = glamorous.div({
-      height: thickness * 3,
+      height: thickness * 1,
       backgroundColor: "black",
       marginTop: 0,
       marginBottom: 10
     });
-    const marginLeft = offset ? 70 : 0;
-    return <GDiv style={{ marginLeft: marginLeft }} />;
+    return <GDiv />;
   }
 }
 Line.propTypes = {
-  thickness: PropTypes.number.isRequired,
-  offset: PropTypes.bool.isRequired
-};
-Line.defaultProps = {
-  offset: false
+  thickness: PropTypes.number.isRequired
 };
 export default Line;

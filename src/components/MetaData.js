@@ -7,13 +7,15 @@ import Line from "./Line";
 import { CardActions } from "material-ui/Card";
 import Typo from "./Typo";
 import Entry from "./Entry";
+import EntryMulti from "./EntryMulti";
+import { capitalizeFirstLetter, getType } from "../utils/functions";
 import _ from "lodash";
 
 /**
  * The component
  * @type {Object}
  */
-class Metadata extends Component {
+class MetaData extends Component {
   /**
    * Render
    * @return {ReactElement}
@@ -22,26 +24,29 @@ class Metadata extends Component {
     const { data } = this.props;
     let entries = [];
     _.forEach(data, function(value, key) {
-      const entry = _.includes(key, "url") ? (
-        <Entry name={key} value={data[key]} key={key} url={true} />
-      ) : (
-        <Entry name={key} value={data[key]} key={key} />
-      );
+      let entry;
+      if (typeof data[key] === "string" || typeof data[key] === "number") {
+        entry = (
+          <Entry name={key} value={data[key]} key={key} type={getType(key)} />
+        );
+      } else {
+        entry = <EntryMulti name={key} object={data[key]} key={key} />;
+      }
       entries.push(entry);
     });
     return (
       <div>
-        <Typo content={"Metadata"} type={4} />
-        <Line thickness={2} />
+        <Typo content={"Metadata"} size={4} />
+        <Line thickness={9} />
         {entries}
       </div>
     );
   }
 }
-Metadata.propTypes = {
+MetaData.propTypes = {
   data: PropTypes.object.isRequired
 };
-export default Metadata;
+export default MetaData;
 
 // <Line thickness={1} />
 // <Line thickness={1} offset={true} />

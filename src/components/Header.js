@@ -16,9 +16,9 @@ class Header extends Component {
     const { title } = this.props;
     return (
       <div>
-        <Typo content={"Dataset Facts"} type={5} />
-        <Typo content={title} type={3} />
-        <Line thickness={3} offset={false} />
+        <Typo content={"Dataset Facts"} size={5} />
+        <Typo content={title} size={3} />
+        <Line thickness={15} />
       </div>
     );
   }
