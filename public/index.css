@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "HelveticaLTStd-Bold";
+  src: url("fonts/HelveticaLTStd-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaLTStd-Roman";
+  src: url("fonts/HelveticaLTStd-Roman.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaLTStd-Light";
+  src: url("fonts/HelveticaLTStd-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: "HelveticaLTStd-Roman", Helvetica, Arial, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+}
