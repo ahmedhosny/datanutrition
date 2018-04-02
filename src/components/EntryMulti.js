@@ -23,9 +23,11 @@ class EntryMulti extends Component {
       marginLeft: 50
     });
     let entries = [];
-    let lastKey = Object.keys(object)[Object.keys(object).length - 1];
+    let length = Object.keys(object).length - 1;
+    let counter = 0;
     _.forEach(object, function(value, key) {
-      let last = lastKey === key ? true : false;
+      let last = counter === length ? true : false;
+      counter += 1;
       entries.push(
         <Entry
           name={key}

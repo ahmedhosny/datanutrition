@@ -12,22 +12,22 @@ const data = {
     missing: "%",
     license: "cc",
     released: "JAN 2017",
-    author: {
-      name: "Propublica",
-      url: "https://www.propublica.org/datastore/",
-      email: "data.store@propublica.org"
-    },
+    range: { from: "AUG 2013", to: "DEC 2015" },
+    description:
+      "This is the data used in ProPublica’s Dollars for Docs news application. It is primarily based on CMS’s Open Payments data, but we have added a few features. ProPublica has standardized drug, device and manufacturer names, and made a flattened table (product_payments) that allows for easier aggregating payments associated with each drug/device. In [1], one payment record can be attributed to up to five different drugs or medical devices. This table flattens the payments out so that each drug/device related to each payment gets its own line."
+  },
+  provenance: {
     source: {
       name: "U.S. Centers for Medicare & Medicaid Services",
       url: "https://www.cms.gov/OpenPayments/",
       email: "openpayments@cms.hhs.gov"
     },
-    range: { from: "AUG 2013", to: "DEC 2015" },
-
-    description:
-      "This is the data used in ProPublica’s Dollars for Docs news application. It is primarily based on CMS’s Open Payments data, but we have added a few features. ProPublica has standardized drug, device and manufacturer names, and made a flattened table (product_payments) that allows for easier aggregating payments associated with each drug/device. In [1], one payment record can be attributed to up to five different drugs or medical devices. This table flattens the payments out so that each drug/device related to each payment gets its own line."
-  },
-  provenance: {}
+    author: {
+      name: "Propublica",
+      url: "https://www.propublica.org/datastore/",
+      email: "data.store@propublica.org"
+    }
+  }
 
   // Caution	Do not sum the total_amount field. CMS does not split totals per drug or medical device. Instead, this table is useful for counting how many payments were attributed to a singular drug or device or which doctors were associated with which products.
   // Other warning maybe?

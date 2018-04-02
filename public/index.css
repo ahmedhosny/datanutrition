@@ -25,4 +25,6 @@ body {
   /* font-family: "HelveticaLTStd-Roman", Helvetica, Arial, sans-serif; */
   background-color: #eeeeee;
   -webkit-font-smoothing: antialiased;
+  max-width: 100%;
+  overflow-x: hidden;
 }
