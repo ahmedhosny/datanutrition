@@ -5,6 +5,7 @@ import Card, { CardContent } from "material-ui/Card";
 import Section from "./Section";
 import Header from "./Header";
 import Spacer from "./Spacer";
+import { Element } from "react-scroll";
 
 /**
  * The component
@@ -31,9 +32,13 @@ class Label extends Component {
           <GCardContent>
             <Header title={data.title} />
             <Spacer />
-            <Section title={"Metadata"} data={data.metadata} />
+            <Element name="metadata">
+              <Section title={"Metadata"} data={data.metadata} />
+            </Element>
             <Spacer />
-            <Section title={"Provenance"} data={data.provenance} />
+            <Element name="provenance">
+              <Section title={"Provenance"} data={data.provenance} />
+            </Element>
           </GCardContent>
         </GCard>
       </div>
