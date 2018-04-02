@@ -2,6 +2,7 @@
   "name": "datanutrition",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://ahmedhosny.github.io/datanutrition",
   "dependencies": {
     "glamor": "^2.20.40",
     "glamorous": "^4.12.1",
@@ -16,6 +17,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }

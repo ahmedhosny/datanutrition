@@ -19,7 +19,6 @@ class Entry extends Component {
       display: "flex",
       verticalAlign: "bottom"
     });
-    console.log(last);
     return (
       <div>
         <GDiv>

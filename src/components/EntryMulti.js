@@ -18,7 +18,6 @@ class EntryMulti extends Component {
    */
   render() {
     const { name, object } = this.props;
-    console.log(object);
     const GDiv = Glamorous.div({
       marginLeft: 50
     });
