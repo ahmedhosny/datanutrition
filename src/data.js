@@ -27,7 +27,8 @@ const data = {
       url: "https://www.propublica.org/datastore/",
       email: "data.store@propublica.org"
     }
-  }
+  },
+  variables: {}
 
   // Caution	Do not sum the total_amount field. CMS does not split totals per drug or medical device. Instead, this table is useful for counting how many payments were attributed to a singular drug or device or which doctors were associated with which products.
   // Other warning maybe?
