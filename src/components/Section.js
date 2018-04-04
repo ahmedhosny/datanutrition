@@ -37,7 +37,12 @@ class Section extends Component {
         );
       } else {
         entry = (
-          <EntryMulti name={key} object={data[key]} key={key} last={last} />
+          <EntryMulti
+            name={key}
+            object={data[key]}
+            key={key}
+            lastOverall={last}
+          />
         );
       }
       entries.push(entry);

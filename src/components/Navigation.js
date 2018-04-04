@@ -27,14 +27,14 @@ class Navigation extends Component {
     const GDiv = Glamorous.div({
       padding: 20,
       color: "#696969",
-      width: "100%",
       position: "sticky",
       top: 0,
+      backgroundColor: "#eeeeee",
       cursor: "pointer"
     });
     return (
       <GDiv>
-        <Typo content={"This is nothing but a demo."} size={3} />
+        <Typo content={"Navigate"} size={3} />
         <ul>
           <li>
             <Link
@@ -60,6 +60,19 @@ class Navigation extends Component {
               onSetActive={this.handleSetActive}
             >
               provenance
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="variables"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onSetActive={this.handleSetActive}
+            >
+              variables
             </Link>
           </li>
         </ul>

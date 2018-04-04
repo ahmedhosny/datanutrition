@@ -39,6 +39,10 @@ class Label extends Component {
             <Element name="provenance">
               <Section title={"Provenance"} data={data.provenance} />
             </Element>
+            <Spacer />
+            <Element name="variables">
+              <Section title={"Variables"} data={data.variables.nominal} />
+            </Element>
           </GCardContent>
         </GCard>
       </div>

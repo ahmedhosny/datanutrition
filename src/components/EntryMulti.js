@@ -17,7 +17,7 @@ class EntryMulti extends Component {
    * @return {ReactElement}
    */
   render() {
-    const { name, object } = this.props;
+    const { name, object, lastOverall } = this.props;
     const GDiv = Glamorous.div({
       marginLeft: 50
     });
@@ -43,7 +43,7 @@ class EntryMulti extends Component {
         <Typo content={capitalizeFirstLetter(name)} size={3} />
         <Line thickness={1} />
         <GDiv>{entries}</GDiv>
-        <Line thickness={3} />
+        {lastOverall ? null : <Line thickness={3} />}
       </div>
     );
   }

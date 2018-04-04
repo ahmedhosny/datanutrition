@@ -28,7 +28,88 @@ const data = {
       email: "data.store@propublica.org"
     }
   },
-  variables: {}
+  variables: {
+    ordinal: {
+      id: {
+        description:
+          "A unique ID number for this payment & product combination. This is assigned by ProPublica for internal use"
+      },
+      applicable_manufacturer_or_applicable_gpo_making_payment_id: {
+        description:
+          "ID of the applicable manufacturer or submitting applicable GPO making the payment or other transfer of value"
+      },
+      date_of_payment: {
+        description:
+          "If a singular payment, then this is the actual date the payment was issued; if a series of payments or an aggregated set of payments, this is the date of the first payment to the covered recipient in this program year"
+      },
+      general_transaction_id: {
+        description:
+          "System-assigned identifier to the general transaction at the time of submission"
+      },
+      program_year: {
+        description:
+          "The calendar year for which the payment is reported in Open Payments"
+      }
+    },
+    nominal: {
+      product_name: {
+        description:
+          "Derived from the 'name_of_associated_covered_drug_or_biologicalX' field (for drugs) or 'name_of_associated_covered_device_or_medical_supplyX' field (for medical devices). Where possible,multiple versions of the same product are converted to the same product_name (i.e. records for 'Zorvolex 65mg' and 'Zorvolex 35mg' will be converted to 'Zorvolex'). The original value is contained in original_product_name"
+      },
+      original_product_name: {
+        description:
+          "A copy of the original name_of_associated_covered_drug_or_biologicalX' field (for drugs) or 'name_of_associated_covered_device_or_medical_supplyX' field (for medical devices)"
+      },
+      product_ndc: {
+        description:
+          "If the product is a drug, this a copy of the original 'ndc_of_associated_covered_drug_or_biologicalX' field"
+      },
+      product_is_drug: {
+        description:
+          "'t' if the product is a drug (contained in a 'name_of_associated_covered_drug_or_biologicalX' field). 'f' if the product is a medical device (contained in a 'name_of_associated_covered_device_or_medical_supplyX' field)"
+      },
+      payment_has_many: {
+        description:
+          "'t' if the original payment record included data on more than one drug or device, i.e. 'name_of_associated_covered_drug_or_biological1' and 'name_of_associated_covered_drug_or_biological2', 'name_of_associated_covered_device_or_medical_supply1' and 'name_of_associated_covered_device_or_medical_supply2', etc."
+      },
+      teaching_hospital_id: {
+        description:
+          "Open Payments system-generated unique identifier of the teaching hospital receiving the payment or other transfer of value"
+      },
+      physician_profile_id: {
+        description:
+          "ID of the physician receiving the payment or other transfer of value"
+      },
+      recipient_state: {
+        description:
+          "The state or territory abbreviation of the primary business address of the physician or teaching hospital or non-covered recipient entity receiving the payment or other transfer of value if the primary business address is in the United States"
+      },
+      applicable_manufacturer_or_applicable_gpo_making_payment_name: {
+        description:
+          "Textual proper name of the applicable manufacturer or applicable GPO making the payment or other transfer of value. This field has been standardized to eliminate different names attributable solely to punctuation"
+      },
+      teaching_hospital_ccn: {
+        description:
+          "A unique identifying number (CMS Certification Number) of the Teaching Hospital receiving the payment or other transfer of value"
+      },
+      product_slug: {
+        description:
+          "Used internally at ProPublica for web display on the Dollars for Docs app. You can pull up the corresponding Dollars for Docs page for a product by appending product_slug to https://projects.propublica.org/docdollars/products/, i.e. https://projects.propublica.org/docdollars/products/device-dental-cabinetry"
+      }
+    },
+    continuous: {
+      total_amount_of_payment_usdollars: {
+        description:
+          "U.S. dollar amount of payment or other transfer of value to recipient (manufacturer must convert to dollar currency if necessary)"
+      }
+    },
+    discrete: {
+      number_of_payments_included_in_total_amount: {
+        description:
+          "The number of discrete payments being reported in the 'Total Amount of Payment' data element"
+      }
+    }
+  }
 
   // Caution	Do not sum the total_amount field. CMS does not split totals per drug or medical device. Instead, this table is useful for counting how many payments were attributed to a singular drug or device or which doctors were associated with which products.
   // Other warning maybe?

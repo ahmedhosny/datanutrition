@@ -40,6 +40,8 @@ class Typo extends Component {
     const GTypography = glamorous.div(dict[size]);
     const paddingLeft = position === "right" ? 20 : 0;
     const lineHeight = position === "right" || sub ? 1.3 : 1;
+    const wordBreak = position === "right" ? "break-word" : "normal";
+    const wordWrap = "break-word";
     const inner = getInner(type, content);
     return (
       <GTypography
@@ -47,7 +49,9 @@ class Typo extends Component {
           textAlign: position,
           flexGrow: 1,
           paddingLeft: paddingLeft,
-          lineHeight: lineHeight
+          lineHeight: lineHeight,
+          wordBreak: wordBreak,
+          wordWrap: wordWrap
         }}
       >
         {inner}
