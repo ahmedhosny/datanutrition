@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import Viewer from "./components/Viewer";
 import data from "./data";
+import { getStats } from "./utils/statistics";
 import "./App.css";
+
+getStats();
 
 class App extends Component {
   render() {

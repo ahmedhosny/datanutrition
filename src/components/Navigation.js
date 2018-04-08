@@ -75,6 +75,19 @@ class Navigation extends Component {
               variables
             </Link>
           </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="statistics"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onSetActive={this.handleSetActive}
+            >
+              statistics
+            </Link>
+          </li>
         </ul>
       </GDiv>
     );

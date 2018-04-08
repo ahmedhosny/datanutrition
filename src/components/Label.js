@@ -41,7 +41,11 @@ class Label extends Component {
             </Element>
             <Spacer />
             <Element name="variables">
-              <Section title={"Variables"} data={data.variables.nominal} />
+              <Section title={"Variables"} data={data.variables} />
+            </Element>
+            <Spacer />
+            <Element name="statistics">
+              <Section title={"Statistics"} data={{}} />
             </Element>
           </GCardContent>
         </GCard>

@@ -42,6 +42,7 @@ class Typo extends Component {
     const lineHeight = position === "right" || sub ? 1.3 : 1;
     const wordBreak = position === "right" ? "break-word" : "normal";
     const wordWrap = "break-word";
+    const maxWidth = position === "" ? 400 : "";
     const inner = getInner(type, content);
     return (
       <GTypography
@@ -51,7 +52,8 @@ class Typo extends Component {
           paddingLeft: paddingLeft,
           lineHeight: lineHeight,
           wordBreak: wordBreak,
-          wordWrap: wordWrap
+          wordWrap: wordWrap,
+          maxWidth: maxWidth
         }}
       >
         {inner}
