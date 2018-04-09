@@ -94,66 +94,75 @@ const data = {
         stats: []
       }
     ],
-    nominal: {},
-    continuous: {},
-    discrete: {}
+    nominal: [
+      {
+        name: "product_name",
+        type: "string",
+        stats: []
+      },
+      {
+        name: "original_product_name",
+        type: "string",
+        stats: []
+      },
+      {
+        name: "product_ndc",
+        type: "number",
+        stats: []
+      },
+      {
+        name: "product_is_drug",
+        type: "boolean",
+        stats: []
+      },
+      {
+        name: "payment_has_many",
+        type: "boolean",
+        stats: []
+      },
+      {
+        name: "teaching_hospital_id",
+        type: "number",
+        stats: []
+      },
+      {
+        name: "physician_profile_id",
+        type: "number",
+        stats: []
+      },
+      {
+        name: "recipient_state",
+        type: "string",
+        stats: []
+      },
+      {
+        name: "applicable_manufacturer_or_applicable_gpo_making_payment_name",
+        type: "string",
+        stats: []
+      },
+      {
+        name: "teaching_hospital_ccn",
+        type: "number",
+        stats: []
+      },
+      {
+        name: "product_slug",
+        type: "string",
+        stats: []
+      }
+    ],
+    continuous: [],
+    discrete: []
   }
 
-  //   product_name: {
-  //     description:
-  //       "Derived from the 'name_of_associated_covered_drug_or_biologicalX' field (for drugs) or 'name_of_associated_covered_device_or_medical_supplyX' field (for medical devices). Where possible,multiple versions of the same product are converted to the same product_name (i.e. records for 'Zorvolex 65mg' and 'Zorvolex 35mg' will be converted to 'Zorvolex'). The original value is contained in original_product_name",
-  //     type: "nominal"
-  //   },
-  //   original_product_name: {
-  //     description:
-  //       "A copy of the original name_of_associated_covered_drug_or_biologicalX' field (for drugs) or 'name_of_associated_covered_device_or_medical_supplyX' field (for medical devices)",
-  //     type: "nominal"
-  //   },
-  //   product_ndc: {
-  //     description:
-  //       "If the product is a drug, this a copy of the original 'ndc_of_associated_covered_drug_or_biologicalX' field",
-  //     type: "nominal"
-  //   },
-  //   product_is_drug: {
-  //     description:
-  //       "'t' if the product is a drug (contained in a 'name_of_associated_covered_drug_or_biologicalX' field). 'f' if the product is a medical device (contained in a 'name_of_associated_covered_device_or_medical_supplyX' field)",
-  //     type: "nominal"
-  //   },
-  //   payment_has_many: {
-  //     description:
-  //       "'t' if the original payment record included data on more than one drug or device, i.e. 'name_of_associated_covered_drug_or_biological1' and 'name_of_associated_covered_drug_or_biological2', 'name_of_associated_covered_device_or_medical_supply1' and 'name_of_associated_covered_device_or_medical_supply2', etc.",
-  //     type: "nominal"
-  //   },
-  //   teaching_hospital_id: {
-  //     description:
-  //       "Open Payments system-generated unique identifier of the teaching hospital receiving the payment or other transfer of value",
-  //     type: "nominal"
-  //   },
-  //   physician_profile_id: {
-  //     description:
-  //       "ID of the physician receiving the payment or other transfer of value",
-  //     type: "nominal"
-  //   },
-  //   recipient_state: {
-  //     description:
-  //       "The state or territory abbreviation of the primary business address of the physician or teaching hospital or non-covered recipient entity receiving the payment or other transfer of value if the primary business address is in the United States",
-  //     type: "nominal"
-  //   },
-  //   applicable_manufacturer_or_applicable_gpo_making_payment_name: {
-  //     description:
-  //       "Textual proper name of the applicable manufacturer or applicable GPO making the payment or other transfer of value. This field has been standardized to eliminate different names attributable solely to punctuation",
-  //     type: "nominal"
-  //   },
-  //   teaching_hospital_ccn: {
-  //     description:
-  //       "A unique identifying number (CMS Certification Number) of the Teaching Hospital receiving the payment or other transfer of value",
-  //     type: "nominal"
-  //   },
-  //   product_slug: {
-  //     description:
-  //       "Used internally at ProPublica for web display on the Dollars for Docs app. You can pull up the corresponding Dollars for Docs page for a product by appending product_slug to https://projects.propublica.org/docdollars/products/, i.e. https://projects.propublica.org/docdollars/products/device-dental-cabinetry",
-  //     type: "nominal"
-  //   },
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
   //   total_amount_of_payment_usdollars: {
   //     description:
   //       "U.S. dollar amount of payment or other transfer of value to recipient (manufacturer must convert to dollar currency if necessary)",

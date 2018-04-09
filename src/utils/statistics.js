@@ -2,8 +2,10 @@ import Papa from "papaparse";
 import data from "../data";
 import _ from "lodash";
 
+// const url =
+//   "https://raw.githubusercontent.com/ahmedhosny/datanutrition/master/src/utils/sample.csv";
 const url =
-  "https://raw.githubusercontent.com/ahmedhosny/datanutrition/master/src/utils/sample.csv";
+  "https://raw.githubusercontent.com/ahmedhosny/datanutrition/master/src/utils/sample_missing.csv";
 
 // all csv is parsed as string
 export function getStats() {
@@ -18,11 +20,16 @@ export function getStats() {
           [key]: results.data.map(o => o[key])
         }))
       );
-      const stats = getOrdinal(data, transposed, noOfRows);
+      const stats = getOrdinalNominal(data, transposed, noOfRows);
       console.log(stats);
     }
   });
 }
+
+/**
+ * Temporary to bind ordinal and nominal
+ */
+let ordinalNominal = data.statistics.ordinal.concat(data.statistics.nominal);
 
 /**
  * Gets ordinal statistics
@@ -30,19 +37,21 @@ export function getStats() {
  * @param  {array} trasnposed  transposed from csv of actual data
  * @param  {number} noOfRows     number of rows.
  */
-function getOrdinal(data, trasnposed, noOfRows) {
+function getOrdinalNominal(data, trasnposed, noOfRows) {
   let stats = [];
-  data.statistics.ordinal.map((m, index) => {
+  ordinalNominal.map((m, index) => {
     const column = trasnposed[m.name];
     const count = _.countBy(column);
     const uniqueEntries = _.uniq(column).length;
+    const uniqueEntriesString = getUnique(column, count);
     console.log(count);
     const obj = {
       name: m.name,
       count: column.length,
-      uniqueEntries: uniqueEntries,
+      uniqueEntries: uniqueEntriesString,
       mostFrequent: getFreq(count, noOfRows, uniqueEntries, true),
-      leastFrequent: getFreq(count, noOfRows, uniqueEntries, false)
+      leastFrequent: getFreq(count, noOfRows, uniqueEntries, false),
+      missing: getMissing(count, noOfRows)
     };
     stats.push(obj);
   });
@@ -58,13 +67,17 @@ function getOrdinal(data, trasnposed, noOfRows) {
  * @return {string}          most or least frequent
  */
 function getFreq(count, noOfRows, unique, which) {
-  const freq = Object.keys(count).reduce(function(a, b) {
+  let freq = Object.keys(count).reduce(function(a, b) {
     if (which) {
       return count[a] > count[b] ? a : b;
     } else {
       return count[a] < count[b] ? a : b;
     }
   });
+  //
+  // check if freq is undefined
+  //
+  const freqMissing = freq === "" ? "missing value" : freq;
   //
   //if the entire column is made up all unique entries
   //
@@ -75,11 +88,7 @@ function getFreq(count, noOfRows, unique, which) {
     // if entire column is made up of the same value
     // most frequent makes sense here - but least frequent is empty
     //
-    if (which) {
-      return freq + " (" + count[freq].toString() + ")";
-    } else {
-      return "--";
-    }
+    return which ? freqMissing + " (" + count[freq].toString() + ")" : "--";
   } else {
     //
     // if there is something in between
@@ -90,10 +99,33 @@ function getFreq(count, noOfRows, unique, which) {
     const edges = _.countBy(Object.values(count), function(item) {
       return item === count[freq];
     });
-    if (edges.true === 1) {
-      return freq + " (" + count[freq].toString() + ")";
-    } else {
-      return "multiple detected";
-    }
+    return edges.true === 1
+      ? freqMissing + " (" + count[freq].toString() + ")"
+      : "multiple detected";
   }
+}
+/**
+ * Calculate missing percentage
+ * @param  {object} count    count from lodash
+ * @param  {number} noOfRows number of entires
+ * @return {string}          [either 0% or the actual %
+ */
+function getMissing(count, noOfRows) {
+  return count[""] === undefined
+    ? "0%"
+    : parseFloat(count[""] / noOfRows * 100)
+        .toFixed(2)
+        .toString() + "%";
+}
+
+/**
+ * Calculate number of unique values
+ * @param  {array} column column of a variable
+ * @param  {object} count    count from lodash
+ * @return {string}    number of unique
+ */
+function getUnique(column, count) {
+  return count[""] === undefined
+    ? _.uniq(column).length.toString()
+    : _.uniq(column).length.toString() + " including missing";
 }

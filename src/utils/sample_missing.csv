@@ -16,13 +16,13 @@
 14,10306926,Xarelto,Xarelto,5045857810,t,f,0,346758,CA,100000000232,"Janssen Pharmaceuticals, Inc",2.01,2014-01-07,1,156382052,2014,0,drug-xarelto
 15,10306930,Xarelto,Xarelto,5045857810,t,f,0,346758,CA,100000000232,"Janssen Pharmaceuticals, Inc",15.01,2014-04-24,1,156382060,2014,0,drug-xarelto
 16,10306934,Xarelto,Xarelto,5045857810,t,f,0,346758,CA,100000000232,"Janssen Pharmaceuticals, Inc",11.9,2014-07-24,1,156382068,2014,0,drug-xarelto
-17,10306938,Xarelto,,5045857810,t,f,0,346758,CA,100000000232,"Janssen Pharmaceuticals, Inc",21.17,2014-09-08,1,156382076,2014,0,drug-xarelto
+17,10306938,Xarelto,Xarelto,5045857810,t,f,0,346758,CA,100000000232,"Janssen Pharmaceuticals, Inc",21.17,2014-09-08,1,156382076,2014,0,drug-xarelto
 18,10306942,Xarelto,Xarelto,5045857810,t,f,0,101520,RI,100000000232,"Janssen Pharmaceuticals, Inc",16.89,2014-01-24,1,156382084,2014,0,drug-xarelto
 19,10306946,Xarelto,Xarelto,5045857810,t,f,0,101520,RI,100000000232,"Janssen Pharmaceuticals, Inc",12.93,2014-04-26,1,156382092,2014,0,drug-xarelto
 20,10306950,Xarelto,Xarelto,5045857810,t,f,0,101520,RI,100000000232,"Janssen Pharmaceuticals, Inc",7.39,2014-08-21,1,,2014,0,drug-xarelto
 21,10306954,Invokana,Invokana,5045814001,t,t,0,267941,MI,100000000232,"Janssen Pharmaceuticals, Inc",12.54,2014-02-10,1,,2014,0,drug-invokana
 22,10306958,Invokana,Invokana,,t,t,0,267941,MI,100000000232,"Janssen Pharmaceuticals, Inc",15.56,2014-02-17,1,156382116,2014,0,drug-invokana
-23,10306962,Invokana,,5045814001,t,,0,267941,MI,100000000232,"Janssen Pharmaceuticals, Inc",14.54,2014-05-09,1,156382124,2014,0,drug-invokana
+23,10306962,Invokana,Invokana,5045814001,t,,0,267941,MI,100000000232,"Janssen Pharmaceuticals, Inc",14.54,2014-05-09,1,156382124,2014,0,drug-invokana
 24,10306966,Invokana,Invokana,5045814001,t,f,0,267941,MI,100000000232,"Janssen Pharmaceuticals, Inc",1900,2014-03-31,1,156382132,2014,0,drug-invokana
 25,10306970,Invokana,Invokana,5045814001,t,f,0,267941,MI,100000000232,"Janssen Pharmaceuticals, Inc",2500,2014-02-10,1,156382140,2014,0,drug-invokana
 26,10306974,Invokana,Invokana,5045814001,t,f,0,267941,MI,100000000232,"Janssen Pharmaceuticals, Inc",1250,2014-04-23,1,156382148,2014,0,drug-invokana
@@ -62,7 +62,7 @@
 60,10307106,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,181073,OH,100000000232,"Janssen Pharmaceuticals, Inc",81.99,2014-12-11,1,156382440,2014,0,drug-invega-sustenna
 61,10307110,Xarelto,Xarelto,5045857810,t,t,0,278575,MI,100000000232,"Janssen Pharmaceuticals, Inc",10.38,2014-02-11,1,156382448,2014,0,drug-xarelto
 62,10307114,Xarelto,Xarelto,5045857810,t,f,0,278575,MI,100000000232,"Janssen Pharmaceuticals, Inc",16.09,2014-03-10,1,156382456,2014,0,drug-xarelto
-63,10307118,Xarelto,,5045857810,t,f,0,278575,MI,100000000232,"Janssen Pharmaceuticals, Inc",14.73,2014-11-14,1,156382464,2014,0,drug-xarelto
+63,10307118,Xarelto,Xarelto,5045857810,t,f,0,278575,MI,100000000232,"Janssen Pharmaceuticals, Inc",14.73,2014-11-14,1,156382464,2014,0,drug-xarelto
 64,10307122,Xarelto,Xarelto,5045857810,t,f,0,101267,NE,100000000232,"Janssen Pharmaceuticals, Inc",2.01,2014-02-14,1,156382472,2014,0,drug-xarelto
 65,10307126,Simponi Aria,Simponi Aria,5789406002,t,t,0,38042,MS,100000000329,"Janssen Biotech, Inc.",16.6,2014-06-05,1,156382482,2014,0,drug-simponi-aria
 66,10307130,Invokana,Invokana,5045814001,t,t,0,360021,MO,100000000232,"Janssen Pharmaceuticals, Inc",11.55,2014-02-10,1,156382490,2014,0,drug-invokana
@@ -128,24 +128,24 @@
 126,10307374,Xarelto,Xarelto,5045857810,t,f,0,207644,FL,100000000232,"Janssen Pharmaceuticals, Inc",,,1,156383060,2014,0,drug-xarelto
 127,10307378,Xarelto,Xarelto,5045857810,t,f,0,,FL,100000000232,"Janssen Pharmaceuticals, Inc",,2014-02-11,1,156383068,2014,0,drug-xarelto
 128,10307382,Invokana,Invokana,5045814001,t,t,0,,NC,100000000232,,,2014-07-24,1,156383076,2014,0,drug-invokana
-129,10307386,Xarelto,Xarelto,5045857810,t,t,0,,NC,,"Janssen Pharmaceuticals, Inc",13.15,2014-10-07,1,156383084,2014,0,drug-xarelto
-130,10307390,Xarelto,Xarelto,5045857810,t,f,0,140401,GA,,"Janssen Pharmaceuticals, Inc",12.2,2014-10-14,1,156383096,2014,0,drug-xarelto
+129,10307386,Xarelto,Xarelto,5045857810,t,t,0,,NC,100000000232,"Janssen Pharmaceuticals, Inc",13.15,2014-10-07,1,156383084,2014,0,drug-xarelto
+130,10307390,Xarelto,Xarelto,5045857810,t,f,0,140401,GA,100000000232,"Janssen Pharmaceuticals, Inc",12.2,2014-10-14,1,156383096,2014,0,drug-xarelto
 131,10307394,Invokana,Invokana,5045814001,t,t,0,167114,WV,100000000232,"Janssen Pharmaceuticals, Inc",11.27,2014-04-02,1,,2014,0,drug-invokana
-132,10307398,Invokana,Invokana,5045814001,t,t,0,167114,,100000000232,"Janssen Pharmaceuticals, Inc",1.04,2014-07-17,1,,2014,0,drug-invokana
-133,10307402,Invokana,Invokana,5045814001,t,t,0,167114,,100000000232,"Janssen Pharmaceuticals, Inc",10.74,2014-11-03,1,,2014,0,
-134,10307406,Xarelto,Xarelto,5045857810,t,f,0,167114,,100000000232,"Janssen Pharmaceuticals, Inc",15.64,2014-12-19,1,156383128,2014,0,
-135,10307410,Xarelto,Xarelto,5045857810,t,f,0,346056,,100000000232,"Janssen Pharmaceuticals, Inc",99.6,2014-07-15,1,156383136,2014,0,drug-xarelto
-136,10307414,Xarelto,Xarelto,5045857810,t,t,,204700,,100000000232,"Janssen Pharmaceuticals, Inc",3.61,2014-04-04,1,156383146,2014,0,drug-xarelto
-137,10307418,Invokana,Invokana,5045814001,t,t,,204700,,100000000232,"Janssen Pharmaceuticals, Inc",17.48,2014-06-11,1,156383154,2014,0,drug-invokana
+132,10307398,Invokana,Invokana,5045814001,t,t,0,167114,WV,100000000232,"Janssen Pharmaceuticals, Inc",1.04,2014-07-17,1,,2014,0,drug-invokana
+133,10307402,Invokana,Invokana,5045814001,t,t,0,167114,WV,100000000232,"Janssen Pharmaceuticals, Inc",10.74,2014-11-03,1,,2014,0,
+134,10307406,Xarelto,Xarelto,5045857810,t,f,0,167114,WV,100000000232,"Janssen Pharmaceuticals, Inc",15.64,2014-12-19,1,156383128,2014,0,
+135,10307410,Xarelto,Xarelto,5045857810,t,f,0,346056,PA,100000000232,"Janssen Pharmaceuticals, Inc",99.6,2014-07-15,1,156383136,2014,0,drug-xarelto
+136,10307414,Xarelto,Xarelto,5045857810,t,t,,204700,CA,100000000232,"Janssen Pharmaceuticals, Inc",3.61,2014-04-04,1,156383146,2014,0,drug-xarelto
+137,10307418,Invokana,Invokana,5045814001,t,t,,204700,CA,100000000232,"Janssen Pharmaceuticals, Inc",17.48,2014-06-11,1,156383154,2014,0,drug-invokana
 138,10307422,Xarelto,Xarelto,5045857810,t,t,,204700,CA,100000000232,"Janssen Pharmaceuticals, Inc",17.62,2014-07-10,1,156383162,2014,0,drug-xarelto
 139,10307426,Invokana,Invokana,,t,t,,204700,CA,100000000232,"Janssen Pharmaceuticals, Inc",3.5,2014-09-23,1,156383170,2014,0,drug-invokana
 140,10307430,Invokana,Invokana,5045814001,t,,0,204700,CA,100000000232,"Janssen Pharmaceuticals, Inc",6.11,2014-09-17,1,156383178,2014,0,drug-invokana
 141,10307434,Xarelto,Xarelto,5045857810,t,f,0,204700,CA,100000000232,"Janssen Pharmaceuticals, Inc",3.6,2014-09-04,1,156383186,2014,0,drug-xarelto
 142,10307438,Xarelto,Xarelto,5045857810,t,t,0,208729,FL,100000000232,"Janssen Pharmaceuticals, Inc",,2014-01-07,1,156383202,2014,0,drug-xarelto
 143,10307442,Xarelto,Xarelto,5045857810,t,t,0,206777,NE,100000000232,,,2014-04-30,1,156383212,2014,0,drug-xarelto
-144,10307446,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,161833,,100000000232,,,2014-03-27,1,156383220,2014,0,drug-invega-sustenna
-145,,Invokana,Invokana,5045814001,t,f,0,60838,,100000000232,"Janssen Pharmaceuticals, Inc",47.41,2014-02-19,1,156383228,2014,0,drug-invokana
-146,10307454,Invokana,,5045814001,t,t,0,247508,MD,100000000232,"Janssen Pharmaceuticals, Inc",33.05,2014-11-20,1,156383240,2014,0,drug-invokana
+144,10307446,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,161833,MS,100000000232,,,2014-03-27,1,156383220,2014,0,drug-invega-sustenna
+145,,Invokana,Invokana,5045814001,t,f,0,60838,WI,100000000232,"Janssen Pharmaceuticals, Inc",47.41,2014-02-19,1,156383228,2014,0,drug-invokana
+146,10307454,Invokana,Invokana,5045814001,t,t,0,247508,MD,100000000232,"Janssen Pharmaceuticals, Inc",33.05,2014-11-20,1,156383240,2014,0,drug-invokana
 147,10307458,Xarelto,Xarelto,5045857810,t,f,0,292153,MA,100000000232,"Janssen Pharmaceuticals, Inc",35.56,2014-10-22,1,156383248,2014,0,drug-xarelto
 148,10307462,Xarelto,Xarelto,5045857810,t,f,0,337177,FL,100000000232,"Janssen Pharmaceuticals, Inc",11.36,2014-08-15,1,156383256,2014,0,drug-xarelto
 149,10307466,Xarelto,Xarelto,5045857810,t,f,0,109178,OR,100000000232,"Janssen Pharmaceuticals, Inc",22.83,2014-03-17,1,156383266,2014,0,drug-xarelto
@@ -186,10 +186,10 @@
 184,10307606,Xarelto,Xarelto,5045857810,t,f,0,183952,WV,100000000232,"Janssen Pharmaceuticals, Inc",2.11,2014-10-01,1,156383554,2014,0,drug-xarelto
 185,,Xarelto,Xarelto,,t,f,0,183952,WV,100000000232,"Janssen Pharmaceuticals, Inc",2.37,2014-11-24,1,156383562,2014,0,drug-xarelto
 186,10307614,Xarelto,Xarelto,5045857810,t,f,0,183952,WV,100000000232,"Janssen Pharmaceuticals, Inc",2.7,2014-12-30,1,156383570,2014,0,drug-xarelto
-187,10307618,Xarelto,Xarelto,5045857810,t,f,0,265679,TN,,"Janssen Pharmaceuticals, Inc",10.76,2014-07-23,1,156383578,2014,0,drug-xarelto
-188,10307622,Xarelto,Xarelto,5045857810,t,f,0,235941,IL,,"Janssen Pharmaceuticals, Inc",11.12,2014-07-24,1,156383586,2014,0,drug-xarelto
-189,10307626,Invokana,Invokana,5045814001,t,t,0,1074898,MA,,"Janssen Pharmaceuticals, Inc",19.78,2014-06-28,1,156383592,2014,0,drug-invokana
-190,10307630,Simponi,Simponi,5789407001,t,t,0,168826,CA,,"Janssen Biotech, Inc.",9.95,2014-11-03,1,156383602,2014,0,drug-simponi
+187,10307618,Xarelto,Xarelto,5045857810,t,f,0,265679,TN,100000000232,"Janssen Pharmaceuticals, Inc",10.76,2014-07-23,1,156383578,2014,0,drug-xarelto
+188,10307622,Xarelto,Xarelto,5045857810,t,f,0,235941,IL,100000000232,"Janssen Pharmaceuticals, Inc",11.12,2014-07-24,1,156383586,2014,0,drug-xarelto
+189,10307626,Invokana,Invokana,5045814001,t,t,0,1074898,MA,100000000232,"Janssen Pharmaceuticals, Inc",19.78,2014-06-28,1,156383592,2014,0,drug-invokana
+190,10307630,Simponi,Simponi,5789407001,t,t,0,168826,CA,100000000329,"Janssen Biotech, Inc.",9.95,2014-11-03,1,156383602,2014,0,drug-simponi
 191,10307634,OLYSIO,OLYSIO,5967622528,t,t,0,36580,MO,100000000329,"Janssen Biotech, Inc.",24.34,2014-05-14,1,156383610,2014,0,drug-olysio
 192,10307638,Invokana,Invokana,5045814001,t,t,0,66342,CA,100000000232,"Janssen Pharmaceuticals, Inc",15,2014-09-23,1,156383618,2014,0,drug-invokana
 193,10307642,Xarelto,Xarelto,5045857810,t,f,,30539,CA,100000000232,"Janssen Pharmaceuticals, Inc",14.83,,1,156383630,2014,0,drug-xarelto
@@ -213,10 +213,10 @@
 211,10307714,Xarelto,Xarelto,5045857810,t,f,0,337203,FL,100000000232,"Janssen Pharmaceuticals, Inc",18.07,2014-01-08,1,156383796,2014,0,drug-xarelto
 212,10307718,Olysio,Olysio,5967622528,t,f,0,898522,MD,100000000329,"Janssen Biotech, Inc.",37.53,2014-04-24,1,156383804,2014,0,drug-olysio
 213,10307722,Prezista,Prezista,5967656101,t,,0,898522,MD,100000000325,"Janssen Products, LP",250,2014-03-04,1,156383812,2014,0,
-214,10307726,Prezista,,5967656101,t,,0,898522,MD,100000000325,"Janssen Products, LP",2000,2014-07-23,1,156383820,2014,0,drug-prezista
+214,10307726,Prezista,Prezista,5967656101,t,,0,898522,MD,100000000325,"Janssen Products, LP",2000,2014-07-23,1,156383820,2014,0,drug-prezista
 215,10307730,Prezista,Prezista,5967656101,t,f,0,898522,MD,100000000325,"Janssen Products, LP",101.04,2014-08-22,1,,2014,0,drug-prezista
 216,10307734,Prezista,Prezista,,t,f,0,898522,MD,100000000325,"Janssen Products, LP",114.91,2014-10-22,1,,2014,,drug-prezista
-217,,Prezista,Prezista,5967656101,t,f,0,898522,MD,,"Janssen Products, LP",22.4,2014-08-22,1,,2014,,drug-prezista
+217,,Prezista,Prezista,5967656101,t,f,0,898522,MD,100000000325,"Janssen Products, LP",22.4,2014-08-22,1,,2014,,drug-prezista
 218,10307742,Simponi Aria,Simponi Aria,5789435089,t,t,0,898522,MD,100000000329,"Janssen Biotech, Inc.",15.37,2014-06-12,1,,2014,,drug-simponi-aria
 219,10307746,Invokana,Invokana,5045814001,t,t,0,168084,NY,100000000232,"Janssen Pharmaceuticals, Inc",24.63,2014-05-05,1,,2014,,drug-invokana
 220,10307750,Invokana,Invokana,5045814001,t,f,0,168084,NY,100000000232,"Janssen Pharmaceuticals, Inc",2.59,2014-09-05,1,156383868,2014,,drug-invokana
@@ -225,14 +225,14 @@
 223,10307762,Xarelto,Xarelto,5045857810,t,t,0,361900,MI,100000000232,,11.12,2014-08-15,1,156383900,2014,,drug-xarelto
 224,10307766,Invokana,Invokana,5045814001,t,t,0,301882,NY,100000000232,"Janssen Pharmaceuticals, Inc",24.63,2014-05-05,1,156383908,2014,,drug-invokana
 225,10307770,Invokana,Invokana,5045814001,t,f,0,301882,NY,100000000232,"Janssen Pharmaceuticals, Inc",2.95,2014-02-25,1,156383916,2014,0,drug-invokana
-226,10307774,Xarelto,Xarelto,5045857810,t,t,0,,NY,,"Janssen Pharmaceuticals, Inc",8.31,2014-09-05,1,,2014,0,drug-xarelto
+226,10307774,Xarelto,Xarelto,5045857810,t,t,0,,NY,100000000232,"Janssen Pharmaceuticals, Inc",8.31,2014-09-05,1,,2014,0,drug-xarelto
 227,10307778,Stelara,Stelara,5789406002,t,f,0,,GA,100000000329,"Janssen Biotech, Inc.",17.26,2014-08-13,1,156383932,2014,0,drug-stelara
 228,10307782,Nucynta,Nucynta,5045882002,t,f,0,190799,AZ,100000000232,"Janssen Pharmaceuticals, Inc",22,2014-02-19,1,156383940,2014,0,drug-nucynta
-229,10307786,Stelara,Stelara,5789406002,t,f,0,1235093,TX,,"Janssen Scientific Affairs, LLC",120.24,2014-09-30,1,156383948,2014,0,drug-stelara
-230,10307790,Olysio,Olysio,5967625493,t,f,0,187915,NH,,"Janssen Products, LP",87.95,2014-07-31,1,156383956,2014,0,drug-olysio
-231,10307794,Simponi,Simponi,5789407001,t,t,0,187915,NH,,"Janssen Biotech, Inc.",15.03,2014-05-16,1,156383964,2014,0,drug-simponi
-232,10307798,Simponi,Simponi,5789407001,t,t,0,187915,NH,,"Janssen Biotech, Inc.",21.79,2014-06-06,1,156383972,2014,0,drug-simponi
-233,10307802,Simponi,Simponi,5789407001,t,t,0,187915,NH,,"Janssen Biotech, Inc.",1.59,,1,156383980,2014,0,drug-simponi
+229,10307786,Stelara,Stelara,5789406002,t,f,0,1235093,TX,100000000332,"Janssen Scientific Affairs, LLC",120.24,2014-09-30,1,156383948,2014,0,drug-stelara
+230,10307790,Olysio,Olysio,5967625493,t,f,0,187915,NH,100000000325,"Janssen Products, LP",87.95,2014-07-31,1,156383956,2014,0,drug-olysio
+231,10307794,Simponi,Simponi,5789407001,t,t,0,187915,NH,100000000329,"Janssen Biotech, Inc.",15.03,2014-05-16,1,156383964,2014,0,drug-simponi
+232,10307798,Simponi,Simponi,5789407001,t,t,0,187915,NH,100000000329,"Janssen Biotech, Inc.",21.79,2014-06-06,1,156383972,2014,0,drug-simponi
+233,10307802,Simponi,Simponi,5789407001,t,t,0,187915,NH,100000000329,"Janssen Biotech, Inc.",1.59,,1,156383980,2014,0,drug-simponi
 234,10307806,Simponi Aria,Simponi Aria,5789435089,t,t,,187915,NH,100000000329,"Janssen Biotech, Inc.",15.38,,1,156383988,2014,0,drug-simponi-aria
 235,10307810,Invega Sustenna,Invega Sustenna,5045856001,t,f,,67180,IN,100000000232,"Janssen Pharmaceuticals, Inc",0.8,,1,156383996,2014,0,drug-invega-sustenna
 236,10307814,Invokana,Invokana,5045814001,t,t,,331783,PA,100000000232,"Janssen Pharmaceuticals, Inc",14.89,,1,156384004,2014,0,drug-invokana
@@ -245,8 +245,8 @@
 243,10307842,Xarelto,Xarelto,5045857810,t,t,0,530316,MD,100000000232,,13.11,2014-01-24,1,156384060,2014,0,
 244,10307846,Xarelto,Xarelto,5045857810,t,,0,,MD,100000000232,,13.38,2014-05-13,1,156384068,2014,0,
 245,10307850,Imbruvica,Imbruvica,5796214009,t,f,0,707406,NY,100000000332,"Janssen Scientific Affairs, LLC",2200,2014-08-13,1,156384076,2014,0,drug-imbruvica
-246,10307854,Imbruvica,Imbruvica,5796214009,t,f,0,707406,,100000000332,"Janssen Scientific Affairs, LLC",105.2,2014-08-13,1,156384084,2014,0,drug-imbruvica
-247,10307858,Simponi,Simponi,5789407001,t,t,0,276378,,100000000329,"Janssen Biotech, Inc.",19.14,2014-08-25,1,156384092,2014,0,drug-simponi
+246,10307854,Imbruvica,Imbruvica,5796214009,t,f,0,707406,NY,100000000332,"Janssen Scientific Affairs, LLC",105.2,2014-08-13,1,156384084,2014,0,drug-imbruvica
+247,10307858,Simponi,Simponi,5789407001,t,t,0,276378,TN,100000000329,"Janssen Biotech, Inc.",19.14,2014-08-25,1,156384092,2014,0,drug-simponi
 248,10307862,Invokana,Invokana,,t,t,0,338712,NC,100000000232,"Janssen Pharmaceuticals, Inc",11.96,2014-08-29,1,156384100,2014,0,drug-invokana
 249,10307866,Xarelto,Xarelto,5045857810,t,t,0,338712,NC,100000000232,"Janssen Pharmaceuticals, Inc",3.96,2014-08-11,1,156384108,2014,0,drug-xarelto
 250,10307870,Simponi,Simponi,5789407001,t,f,0,83889,PA,100000000329,,10.74,2014-02-21,1,156384118,2014,0,drug-simponi
@@ -256,17 +256,17 @@
 254,10307886,Simponi Aria,Simponi Aria,5789435089,t,t,,83889,PA,100000000329,"Janssen Biotech, Inc.",38.68,2014-04-28,1,156384150,2014,0,drug-simponi-aria
 255,10307890,Invokana,Invokana,5045814001,t,t,0,64613,IL,100000000232,"Janssen Pharmaceuticals, Inc",12.78,2014-02-04,1,,2014,0,drug-invokana
 256,10307894,Xarelto,Xarelto,5045857810,t,f,0,64613,IL,100000000232,"Janssen Pharmaceuticals, Inc",9.67,2014-02-28,1,,2014,0,drug-xarelto
-257,10307898,Xarelto,Xarelto,5045857810,t,f,0,64613,,100000000232,"Janssen Pharmaceuticals, Inc",8.8,2014-06-06,1,,2014,0,drug-xarelto
+257,10307898,Xarelto,Xarelto,5045857810,t,f,0,64613,IL,100000000232,"Janssen Pharmaceuticals, Inc",8.8,2014-06-06,1,,2014,0,drug-xarelto
 258,10307902,Xarelto,Xarelto,5045857810,t,f,0,64613,IL,100000000232,"Janssen Pharmaceuticals, Inc",18.69,2014-07-22,1,156384182,2014,0,drug-xarelto
 259,10307906,Xarelto,Xarelto,5045857810,t,f,0,64613,IL,100000000232,"Janssen Pharmaceuticals, Inc",13.17,2014-10-10,1,156384190,2014,0,drug-xarelto
 260,,Xarelto,Xarelto,,t,f,0,64613,IL,100000000232,"Janssen Pharmaceuticals, Inc",16.77,2014-11-07,1,156384198,2014,0,drug-xarelto
 261,10307914,Invokana,Invokana,5045814001,t,,0,290298,FL,100000000232,"Janssen Pharmaceuticals, Inc",15.97,2014-03-05,1,156384206,2014,0,drug-invokana
 262,10307918,Xarelto,Xarelto,5045857810,t,f,0,290298,FL,100000000232,"Janssen Pharmaceuticals, Inc",2.01,2014-09-10,1,156384214,2014,0,drug-xarelto
-263,10307922,Invokana,Invokana,5045814001,t,f,,81099,NY,,"Janssen Pharmaceuticals, Inc",68.88,2014-07-22,1,156384222,2014,0,drug-invokana
+263,10307922,Invokana,Invokana,5045814001,t,f,,81099,NY,100000000232,"Janssen Pharmaceuticals, Inc",68.88,2014-07-22,1,156384222,2014,0,drug-invokana
 264,10307926,Xarelto,Xarelto,5045857810,t,f,0,81099,NY,100000000232,"Janssen Pharmaceuticals, Inc",12.77,2014-09-26,1,156384230,2014,0,
 265,10307930,Invokana,Invokana,5045814001,t,t,0,,MI,100000000232,"Janssen Pharmaceuticals, Inc",10.94,2014-03-19,1,156384246,2014,0,drug-invokana
 266,10307934,Xarelto,Xarelto,5045857810,t,t,0,348310,MI,100000000232,"Janssen Pharmaceuticals, Inc",22.01,2014-04-02,1,156384254,2014,0,drug-xarelto
-267,10307938,Xarelto,Xarelto,5045857810,t,t,0,348310,,100000000232,"Janssen Pharmaceuticals, Inc",11.25,2014-07-30,1,156384260,2014,0,drug-xarelto
+267,10307938,Xarelto,Xarelto,5045857810,t,t,0,348310,MI,100000000232,"Janssen Pharmaceuticals, Inc",11.25,2014-07-30,1,156384260,2014,0,drug-xarelto
 268,10307942,Xarelto,Xarelto,5045857810,t,t,0,348310,MI,100000000232,"Janssen Pharmaceuticals, Inc",9.37,2014-09-18,1,156384268,2014,0,drug-xarelto
 269,10307946,Invokana,Invokana,5045814001,t,t,0,132084,TN,100000000232,"Janssen Pharmaceuticals, Inc",15.1,2014-09-18,1,156384276,2014,0,drug-invokana
 270,10307950,Invokana,Invokana,5045814001,t,t,0,29734,MD,100000000232,"Janssen Pharmaceuticals, Inc",0.67,2014-03-31,,156384284,2014,0,drug-invokana
@@ -288,33 +288,33 @@
 286,10308014,Xarelto,Xarelto,5045857810,t,f,0,229708,CT,100000000232,"Janssen Pharmaceuticals, Inc",4,2014-10-16,1,156384414,2014,0,drug-xarelto
 287,10308018,Xarelto,Xarelto,5045857810,t,f,0,229708,CT,100000000232,"Janssen Pharmaceuticals, Inc",11.49,2014-10-09,1,156384422,2014,0,drug-xarelto
 288,10308022,Xarelto,Xarelto,5045857810,t,f,0,229708,CT,100000000232,"Janssen Pharmaceuticals, Inc",9.37,2014-11-05,1,156384430,2014,0,drug-xarelto
-289,10248127,Xarelto,,5045857810,t,t,0,209395,MT,100000000232,,8.44,2014-07-22,1,156255900,2014,0,drug-xarelto
+289,10248127,Xarelto,Xarelto,5045857810,t,t,0,209395,MT,100000000232,,8.44,2014-07-22,1,156255900,2014,0,drug-xarelto
 290,10248131,Xarelto,Xarelto,5045857810,t,t,,42276,PA,100000000232,"Janssen Pharmaceuticals, Inc",5.82,2014-06-16,1,156255908,2014,,drug-xarelto
 291,10248135,Xarelto,Xarelto,5045857810,t,t,0,152943,MT,100000000232,"Janssen Pharmaceuticals, Inc",8.44,2014-07-22,1,156255916,2014,,drug-xarelto
 292,10248139,Xarelto,Xarelto,5045857810,t,f,0,119895,NY,100000000232,"Janssen Pharmaceuticals, Inc",100,2014-11-11,1,156255924,2014,,drug-xarelto
-293,10248143,Invokana,Invokana,5045814001,t,t,0,,,100000000232,"Janssen Pharmaceuticals, Inc",26.35,2014-02-21,,156255932,2014,,drug-invokana
-294,10248147,Invokana,,5045814001,t,,0,114877,NJ,100000000232,"Janssen Pharmaceuticals, Inc",14.08,2014-07-18,,156255940,2014,,drug-invokana
+293,10248143,Invokana,Invokana,5045814001,t,t,0,,NJ,100000000232,"Janssen Pharmaceuticals, Inc",26.35,2014-02-21,,156255932,2014,,drug-invokana
+294,10248147,Invokana,Invokana,5045814001,t,,0,114877,NJ,100000000232,"Janssen Pharmaceuticals, Inc",14.08,2014-07-18,,156255940,2014,,drug-invokana
 295,10248151,Invokana,Invokana,5045814001,t,t,0,114877,NJ,100000000232,"Janssen Pharmaceuticals, Inc",16.82,2014-10-17,1,156255948,2014,0,drug-invokana
-296,10248155,Xarelto,Xarelto,5045857810,t,t,0,114877,NJ,,"Janssen Pharmaceuticals, Inc",16.02,2014-03-28,1,156255956,2014,0,drug-xarelto
-297,10248159,Xarelto,Xarelto,5045857810,t,t,0,114877,NJ,,"Janssen Pharmaceuticals, Inc",14.08,2014-05-09,1,156255964,2014,0,drug-xarelto
-298,10248163,Invokana,Invokana,5045814001,t,t,0,114877,NJ,,"Janssen Pharmaceuticals, Inc",2.64,2014-11-20,1,156255972,2014,0,drug-invokana
-299,10248167,Invokana,Invokana,5045814001,t,f,0,327421,TX,,"Janssen Pharmaceuticals, Inc",16.18,2014-03-26,1,156255980,2014,0,drug-invokana
-300,10248171,Xarelto,Xarelto,5045857810,t,t,0,282093,NY,,"Janssen Pharmaceuticals, Inc",15.15,2014-08-11,1,156255988,2014,0,drug-xarelto
-301,10248175,Xarelto,Xarelto,5045857810,t,t,0,282093,NY,,"Janssen Pharmaceuticals, Inc",11.54,2014-02-24,1,156255996,2014,0,drug-xarelto
-302,10248179,Xarelto,Xarelto,5045857810,t,f,0,282093,NY,,"Janssen Pharmaceuticals, Inc",99,2014-10-01,1,156256004,2014,0,drug-xarelto
-303,10248183,Invokana,Invokana,5045814001,t,t,0,336934,IN,,"Janssen Pharmaceuticals, Inc",11.85,2014-03-31,1,156256016,2014,0,drug-invokana
-304,10248187,Invokana,Invokana,5045814001,t,t,0,336934,IN,,"Janssen Pharmaceuticals, Inc",8.76,2014-07-07,1,156256024,2014,0,drug-invokana
-305,10248191,Xarelto,Xarelto,5045857810,t,t,0,336934,IN,,"Janssen Pharmaceuticals, Inc",9.57,2014-10-06,1,156256032,2014,0,drug-xarelto
-306,10248195,Xarelto,Xarelto,5045857810,t,f,0,336934,IN,,"Janssen Pharmaceuticals, Inc",11.01,2014-05-21,1,156256040,2014,0,drug-xarelto
-307,10248199,Invokana,Invokana,5045814001,t,t,0,28203,FL,,"Janssen Pharmaceuticals, Inc",1.84,2014-10-06,1,156256052,2014,0,drug-invokana
+296,10248155,Xarelto,Xarelto,5045857810,t,t,0,114877,NJ,100000000232,"Janssen Pharmaceuticals, Inc",16.02,2014-03-28,1,156255956,2014,0,drug-xarelto
+297,10248159,Xarelto,Xarelto,5045857810,t,t,0,114877,NJ,100000000232,"Janssen Pharmaceuticals, Inc",14.08,2014-05-09,1,156255964,2014,0,drug-xarelto
+298,10248163,Invokana,Invokana,5045814001,t,t,0,114877,NJ,100000000232,"Janssen Pharmaceuticals, Inc",2.64,2014-11-20,1,156255972,2014,0,drug-invokana
+299,10248167,Invokana,Invokana,5045814001,t,f,0,327421,TX,100000000232,"Janssen Pharmaceuticals, Inc",16.18,2014-03-26,1,156255980,2014,0,drug-invokana
+300,10248171,Xarelto,Xarelto,5045857810,t,t,0,282093,NY,100000000232,"Janssen Pharmaceuticals, Inc",15.15,2014-08-11,1,156255988,2014,0,drug-xarelto
+301,10248175,Xarelto,Xarelto,5045857810,t,t,0,282093,NY,100000000232,"Janssen Pharmaceuticals, Inc",11.54,2014-02-24,1,156255996,2014,0,drug-xarelto
+302,10248179,Xarelto,Xarelto,5045857810,t,f,0,282093,NY,100000000232,"Janssen Pharmaceuticals, Inc",99,2014-10-01,1,156256004,2014,0,drug-xarelto
+303,10248183,Invokana,Invokana,5045814001,t,t,0,336934,IN,100000000232,"Janssen Pharmaceuticals, Inc",11.85,2014-03-31,1,156256016,2014,0,drug-invokana
+304,10248187,Invokana,Invokana,5045814001,t,t,0,336934,IN,100000000232,"Janssen Pharmaceuticals, Inc",8.76,2014-07-07,1,156256024,2014,0,drug-invokana
+305,10248191,Xarelto,Xarelto,5045857810,t,t,0,336934,IN,100000000232,"Janssen Pharmaceuticals, Inc",9.57,2014-10-06,1,156256032,2014,0,drug-xarelto
+306,10248195,Xarelto,Xarelto,5045857810,t,f,0,336934,IN,100000000232,"Janssen Pharmaceuticals, Inc",11.01,2014-05-21,1,156256040,2014,0,drug-xarelto
+307,10248199,Invokana,Invokana,5045814001,t,t,0,28203,FL,100000000232,"Janssen Pharmaceuticals, Inc",1.84,2014-10-06,1,156256052,2014,0,drug-invokana
 308,10248203,Xarelto,Xarelto,5045857810,t,t,,28203,FL,100000000232,"Janssen Pharmaceuticals, Inc",2.18,2014-02-03,1,156256060,2014,0,drug-xarelto
 309,10248207,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,332414,NY,100000000232,,15.06,,1,156256068,2014,0,drug-invega-sustenna
 310,10248211,Simponi Aria,Simponi Aria,5789435089,t,t,0,343664,TX,100000000329,"Janssen Biotech, Inc.",,2014-01-08,1,156256076,2014,0,drug-simponi-aria
 311,10248215,Zytiga,Zytiga,,t,t,0,611512,PR,100000000232,"Janssen Pharmaceuticals, Inc",,2014-10-24,1,156256084,2014,0,drug-zytiga
 312,10248219,Invokana,Invokana,5045814001,t,,0,273146,TX,100000000232,"Janssen Pharmaceuticals, Inc",,2014-11-06,1,156256092,2014,0,
-313,10248223,Invokana,,5045814001,t,f,0,273146,TX,100000000232,"Janssen Pharmaceuticals, Inc",,2014-03-21,1,156256100,2014,0,drug-invokana
+313,10248223,Invokana,Invokana,5045814001,t,f,0,273146,TX,100000000232,"Janssen Pharmaceuticals, Inc",,2014-03-21,1,156256100,2014,0,drug-invokana
 314,,Xarelto,Xarelto,5045857810,t,t,0,63329,FL,100000000232,"Janssen Pharmaceuticals, Inc",,2014-06-10,1,156256108,2014,0,drug-xarelto
-315,10248231,Xarelto,Xarelto,5045857810,t,f,0,308226,CA,,"Janssen Pharmaceuticals, Inc",,2014-05-13,1,156256118,2014,0,drug-xarelto
+315,10248231,Xarelto,Xarelto,5045857810,t,f,0,308226,CA,100000000232,"Janssen Pharmaceuticals, Inc",,2014-05-13,1,156256118,2014,0,drug-xarelto
 316,10248235,Xarelto,Xarelto,5045857810,t,f,0,308226,CA,100000000232,"Janssen Pharmaceuticals, Inc",,2014-08-21,1,156256126,2014,0,drug-xarelto
 317,10248239,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,220177,CA,100000000232,,11.48,2014-02-04,1,156256134,2014,0,drug-invega-sustenna
 318,10248243,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,220177,CA,100000000232,"Janssen Pharmaceuticals, Inc",14,2014-06-03,1,156256142,2014,0,drug-invega-sustenna
@@ -327,7 +327,7 @@
 325,10248271,Simponi,Simponi,5789407001,t,t,0,155258,TX,100000000329,"Janssen Biotech, Inc.",0.57,2014-06-30,1,156256202,2014,0,drug-simponi
 326,10248275,Simponi,Simponi,5789407001,t,t,0,155258,TX,100000000329,"Janssen Biotech, Inc.",0.64,2014-01-20,1,156256210,2014,0,drug-simponi
 327,10248279,Simponi,Simponi,5789407001,t,t,0,155258,TX,100000000329,"Janssen Biotech, Inc.",0.54,2014-03-06,1,156256218,2014,0,drug-simponi
-328,10248283,Simponi,Simponi,5789435089,t,t,0,155258,TX,,"Janssen Biotech, Inc.",12.05,2014-08-14,1,156256226,2014,0,drug-simponi
+328,10248283,Simponi,Simponi,5789435089,t,t,0,155258,TX,100000000329,"Janssen Biotech, Inc.",12.05,2014-08-14,1,156256226,2014,0,drug-simponi
 329,10248287,Simponi Aria,Simponi Aria,5789435089,t,t,,155258,TX,100000000329,"Janssen Biotech, Inc.",6.28,2014-08-21,1,156256234,2014,0,drug-simponi-aria
 330,10248291,Simponi Aria,Simponi Aria,5789435089,t,t,0,155258,TX,100000000329,,10.29,2014-06-03,1,156256242,2014,0,drug-simponi-aria
 331,10248295,Simponi Aria,Simponi Aria,5789435089,t,t,0,155258,TX,100000000329,"Janssen Biotech, Inc.",11.21,2014-04-14,1,156256250,2014,0,drug-simponi-aria
@@ -338,7 +338,7 @@
 336,,Xarelto,Xarelto,5045857810,t,t,0,291331,TX,100000000232,"Janssen Pharmaceuticals, Inc",,2014-03-20,1,156256292,2014,0,drug-xarelto
 337,10248319,Xarelto,Xarelto,5045857810,,t,0,291331,TX,100000000232,"Janssen Pharmaceuticals, Inc",16.78,2014-08-22,1,156256300,2014,0,drug-xarelto
 338,10248323,Xarelto,Xarelto,5045857810,t,f,0,291331,TX,100000000232,"Janssen Pharmaceuticals, Inc",112.54,2014-09-23,1,156256308,2014,0,drug-xarelto
-339,10248327,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,,,100000000232,"Janssen Pharmaceuticals, Inc",0.9,2014-03-25,1,156256318,2014,0,drug-invega-sustenna
+339,10248327,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,,IA,100000000232,"Janssen Pharmaceuticals, Inc",0.9,2014-03-25,1,156256318,2014,0,drug-invega-sustenna
 340,10248331,Nucynta,Nucynta,5045882002,t,f,0,102657,CA,100000000232,,22.18,2014-01-14,1,156256326,2014,0,drug-nucynta
 341,10248335,Nucynta,Nucynta,5045882002,t,f,0,102657,CA,100000000232,"Janssen Pharmaceuticals, Inc",5.38,2014-04-30,1,156256334,2014,0,drug-nucynta
 342,10248339,Nucynta,Nucynta,5045882002,t,f,0,102657,CA,100000000232,"Janssen Pharmaceuticals, Inc",11.54,,1,156256342,2014,0,drug-nucynta
@@ -350,8 +350,8 @@
 348,10248363,,Xarelto,5045857810,t,t,0,1306431,MD,100000000232,"Janssen Pharmaceuticals, Inc",3.5,2014-01-31,1,156256402,2014,0,drug-xarelto
 349,10248367,Xarelto,Xarelto,5045857810,t,t,0,1306431,MD,100000000232,"Janssen Pharmaceuticals, Inc",2.76,2014-05-09,1,,2014,0,drug-xarelto
 350,10248371,Xarelto,Xarelto,5045857810,,t,0,,MD,100000000232,"Janssen Pharmaceuticals, Inc",6.5,2014-07-10,1,156256418,2014,0,drug-xarelto
-351,10248375,Invokana,Invokana,5045814001,t,t,0,149348,FL,,"Janssen Pharmaceuticals, Inc",12.28,2014-03-10,1,156256426,2014,0,drug-invokana
-352,10248379,Invokana,,5045814001,t,t,0,149348,FL,100000000232,"Janssen Pharmaceuticals, Inc",5.78,2014-12-16,1,156256434,2014,0,drug-invokana
+351,10248375,Invokana,Invokana,5045814001,t,t,0,149348,FL,100000000232,"Janssen Pharmaceuticals, Inc",12.28,2014-03-10,1,156256426,2014,0,drug-invokana
+352,10248379,Invokana,Invokana,5045814001,t,t,0,149348,FL,100000000232,"Janssen Pharmaceuticals, Inc",5.78,2014-12-16,1,156256434,2014,0,drug-invokana
 353,10248383,Invokana,Invokana,5045814001,t,f,,149348,FL,100000000232,"Janssen Pharmaceuticals, Inc",6.92,2014-09-08,1,,2014,0,drug-invokana
 354,10248387,Invokana,Invokana,5045814001,t,f,0,149348,FL,100000000232,"Janssen Pharmaceuticals, Inc",15.27,2014-11-03,1,156256450,2014,0,drug-invokana
 355,10248391,Invokana,Invokana,5045814001,t,t,0,311745,VA,100000000232,"Janssen Pharmaceuticals, Inc",13.33,2014-09-02,1,156256458,2014,0,
@@ -362,12 +362,12 @@
 360,10248411,Zytiga,Zytiga,5789415012,t,t,0,1040267,PR,100000000232,"Janssen Pharmaceuticals, Inc",,2014-09-10,1,156256504,2014,0,drug-zytiga
 361,10248415,Xarelto,Xarelto,5045857810,t,t,0,321274,PR,100000000232,"Janssen Pharmaceuticals, Inc",81.68,2014-01-27,1,156256512,2014,0,drug-xarelto
 362,10248419,Simponi,Simponi,5789407001,t,t,0,321274,PR,100000000232,"Janssen Pharmaceuticals, Inc",15.9,2014-03-28,1,,2014,0,drug-simponi
-363,10248423,Zytiga,Zytiga,5789415012,t,t,0,,,100000000232,"Janssen Pharmaceuticals, Inc",9.94,2014-10-31,1,156256528,2014,0,drug-zytiga
+363,10248423,Zytiga,Zytiga,5789415012,t,t,0,,PR,100000000232,"Janssen Pharmaceuticals, Inc",9.94,2014-10-31,1,156256528,2014,0,drug-zytiga
 364,10248427,Invokana,Invokana,5045814001,t,t,0,333474,TX,100000000232,"Janssen Pharmaceuticals, Inc",10.28,2014-02-10,1,156256536,2014,0,drug-invokana
 365,10248431,Xarelto,Xarelto,5045857810,t,t,,209376,KY,100000000232,"Janssen Pharmaceuticals, Inc",1.76,2014-07-16,1,156256544,2014,0,drug-xarelto
 366,10248435,Xarelto,Xarelto,5045857810,t,t,0,209376,KY,100000000232,"Janssen Pharmaceuticals, Inc",14.86,2014-08-14,1,156256552,2014,0,drug-xarelto
-367,10248439,Invokana,Invokana,5045814001,t,t,0,209376,,,"Janssen Pharmaceuticals, Inc",0.85,2014-09-18,1,156256560,2014,0,drug-invokana
-368,10248443,,Xarelto,5045857810,t,f,0,943109,PR,,"Janssen Pharmaceuticals, Inc",7.73,2014-08-11,1,156256568,2014,0,drug-xarelto
+367,10248439,Invokana,Invokana,5045814001,t,t,0,209376,KY,100000000232,"Janssen Pharmaceuticals, Inc",0.85,2014-09-18,1,156256560,2014,0,drug-invokana
+368,10248443,,Xarelto,5045857810,t,f,0,943109,PR,100000000232,"Janssen Pharmaceuticals, Inc",7.73,2014-08-11,1,156256568,2014,0,drug-xarelto
 369,10248447,Simponi,Simponi,5789407001,t,t,0,943109,PR,100000000232,"Janssen Pharmaceuticals, Inc",23.75,2014-09-15,1,156256576,2014,0,drug-simponi
 370,10248451,Xarelto,Xarelto,5045857810,t,t,0,233404,FL,100000000232,,11.11,2014-07-22,1,156256584,2014,0,drug-xarelto
 371,10248455,Xarelto,Xarelto,5045857810,t,t,0,823664,PR,100000000232,"Janssen Pharmaceuticals, Inc",82.09,2014-02-25,,156256600,2014,0,drug-xarelto
@@ -381,18 +381,18 @@
 379,10248487,Invokana,Invokana,5045814001,t,f,0,,TX,100000000232,"Janssen Pharmaceuticals, Inc",118.7,2014-02-06,1,156256668,2014,0,drug-invokana
 380,10248491,,Invokana,5045814001,t,,0,,PR,100000000232,"Janssen Pharmaceuticals, Inc",80,2014-05-14,1,156256678,2014,0,drug-invokana
 381,10248495,Xarelto,Xarelto,5045857810,t,f,0,,PR,100000000232,"Janssen Pharmaceuticals, Inc",12.48,2014-03-25,1,156256690,2014,0,drug-xarelto
-382,10248499,Invega Sustenna,Invega Sustenna,5045856001,t,t,0,,,100000000232,"Janssen Pharmaceuticals, Inc",24.88,,1,156256698,2014,0,drug-invega-sustenna
+382,10248499,Invega Sustenna,Invega Sustenna,5045856001,t,t,0,,NJ,100000000232,"Janssen Pharmaceuticals, Inc",24.88,,1,156256698,2014,0,drug-invega-sustenna
 383,10248503,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,,NJ,100000000232,"Janssen Pharmaceuticals, Inc",,2014-06-19,1,156256706,2014,0,drug-invega-sustenna
 384,10248507,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,,NJ,100000000232,"Janssen Pharmaceuticals, Inc",,2014-05-19,1,156256714,2014,0,drug-invega-sustenna
 385,10248511,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,,NJ,100000000232,"Janssen Pharmaceuticals, Inc",,2014-07-02,1,,2014,0,drug-invega-sustenna
 386,10248515,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,53380,NJ,100000000232,"Janssen Pharmaceuticals, Inc",,2014-09-04,1,156256730,2014,0,
 387,10248519,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,53380,NJ,100000000232,"Janssen Pharmaceuticals, Inc",17.83,2014-07-02,1,156256738,2014,0,drug-invega-sustenna
 388,10248523,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,53380,NJ,100000000232,"Janssen Pharmaceuticals, Inc",24.76,2014-10-01,1,156256746,2014,0,drug-invega-sustenna
-389,10248527,Invokana,Invokana,,t,f,0,267412,CA,,"Janssen Pharmaceuticals, Inc",21.43,2014-03-24,1,156256754,2014,0,drug-invokana
+389,10248527,Invokana,Invokana,,t,f,0,267412,CA,100000000232,"Janssen Pharmaceuticals, Inc",21.43,2014-03-24,1,156256754,2014,0,drug-invokana
 390,10248531,Xarelto,Xarelto,5045857810,t,f,0,267412,CA,100000000232,"Janssen Pharmaceuticals, Inc",10.63,2014-07-16,1,156256762,2014,0,drug-xarelto
 391,10248535,Prezista,Prezista,5967656101,t,t,0,123607,CA,100000000329,"Janssen Biotech, Inc.",13.94,2014-04-04,1,156256770,2014,0,
 392,10248539,,Xarelto,5045857810,t,f,0,132441,GA,100000000232,"Janssen Pharmaceuticals, Inc",39.85,2014-06-12,,156256778,2014,0,
-393,10248543,Invokana,,5045814001,t,,0,209171,CA,100000000232,"Janssen Pharmaceuticals, Inc",0.85,2014-06-05,,156256786,2014,0,
+393,10248543,Invokana,Invokana,5045814001,t,,0,209171,CA,100000000232,"Janssen Pharmaceuticals, Inc",0.85,2014-06-05,,156256786,2014,0,
 394,10248547,Invokana,Invokana,5045814001,t,t,0,105274,OH,100000000232,,9.55,2014-02-27,,156256796,2014,0,
 395,10248551,Invokana,Invokana,5045814001,t,t,,105274,OH,100000000232,"Janssen Pharmaceuticals, Inc",1.47,2014-10-15,,156256804,2014,0,drug-invokana
 396,10248555,Invokana,Invokana,5045814001,t,f,0,105274,OH,100000000232,"Janssen Pharmaceuticals, Inc",99.99,2014-08-05,1,156256812,2014,0,drug-invokana
@@ -412,10 +412,10 @@
 410,10248611,OLYSIO,OLYSIO,5967622528,t,t,0,,MO,100000000329,"Janssen Biotech, Inc.",13.72,2014-07-07,1,156256938,2014,0,drug-olysio
 411,10248615,,OLYSIO,5967622528,t,t,0,303653,MO,100000000329,"Janssen Biotech, Inc.",0.42,,1,156256946,2014,0,drug-olysio
 412,10248619,Simponi,Simponi,5789407001,t,t,0,303653,MO,100000000329,"Janssen Biotech, Inc.",1.63,2014-07-07,1,156256954,2014,0,drug-simponi
-413,10248623,Xarelto,Xarelto,5045857810,t,f,0,,NJ,,"Janssen Pharmaceuticals, Inc",2.5,2014-01-09,1,156256962,2014,0,drug-xarelto
+413,10248623,Xarelto,Xarelto,5045857810,t,f,0,,NJ,100000000232,"Janssen Pharmaceuticals, Inc",2.5,2014-01-09,1,156256962,2014,0,drug-xarelto
 414,10248627,Xarelto,Xarelto,5045857810,t,t,0,571260,GA,100000000232,,5.15,2014-04-28,1,156256970,2014,0,drug-xarelto
 415,10248631,Invokana,Invokana,5045814001,t,t,0,223024,MO,100000000232,"Janssen Pharmaceuticals, Inc",21.52,2014-04-09,1,156256982,2014,0,
-416,10248635,Xarelto,,5045857810,t,t,0,387507,IL,100000000232,"Janssen Pharmaceuticals, Inc",11.47,,1,156256992,2014,0,drug-xarelto
+416,10248635,Xarelto,Xarelto,5045857810,t,t,0,387507,IL,100000000232,"Janssen Pharmaceuticals, Inc",11.47,,1,156256992,2014,0,drug-xarelto
 417,10248639,Zytiga,Zytiga,5789415012,,f,0,280388,TN,100000000329,"Janssen Biotech, Inc.",16.95,2014-05-21,1,156257000,2014,0,drug-zytiga
 418,10248643,Imbruvica,Imbruvica,5796214009,t,f,0,108034,NY,100000000332,"Janssen Scientific Affairs, LLC",3000,2014-06-17,1,156257008,2014,0,drug-imbruvica
 419,10248647,Imbruvica,Imbruvica,5796214009,t,f,,108034,NY,100000000332,"Janssen Scientific Affairs, LLC",1500,2014-09-26,1,156257016,2014,0,drug-imbruvica
@@ -425,25 +425,25 @@
 423,10248663,Zytiga,Zytiga,5789415012,t,t,0,26718,NY,100000000329,"Janssen Biotech, Inc.",,2014-04-26,1,156257048,2014,0,drug-zytiga
 424,10248667,Zytiga,Zytiga,5789415012,t,f,0,74106,MD,100000000329,"Janssen Biotech, Inc.",,2014-05-07,1,156257056,2014,0,drug-zytiga
 425,10248671,Zytiga,Zytiga,5789415012,t,f,0,74106,MD,100000000329,"Janssen Biotech, Inc.",,2014-09-09,1,156257064,2014,0,drug-zytiga
-426,10248675,Zytiga,,5789415012,t,f,0,74106,MD,100000000332,"Janssen Scientific Affairs, LLC",124.41,2014-05-28,1,156257072,2014,0,drug-zytiga
+426,10248675,Zytiga,Zytiga,5789415012,t,f,0,74106,MD,100000000332,"Janssen Scientific Affairs, LLC",124.41,2014-05-28,1,156257072,2014,0,drug-zytiga
 427,10248679,Zytiga,Zytiga,5789415012,t,t,0,290047,CA,100000000329,"Janssen Biotech, Inc.",14.24,,1,156257080,2014,0,drug-zytiga
 428,10248683,Stelara,Stelara,5789406002,t,f,0,203780,NY,100000000329,"Janssen Biotech, Inc.",94.95,2014-03-19,1,156257088,2014,0,drug-stelara
 429,10248687,Stelara,Stelara,5789406002,t,f,0,203780,NY,100000000329,"Janssen Biotech, Inc.",19.01,2014-06-30,1,156257096,2014,0,drug-stelara
-430,10248691,Xarelto,Xarelto,5045857810,,t,0,74837,WI,,"Janssen Pharmaceuticals, Inc",16,2014-03-05,1,156257104,2014,0,
-431,10248695,,Xarelto,5045857810,t,f,0,82846,NY,,"Janssen Pharmaceuticals, Inc",27.43,2014-05-29,1,156257112,2014,0,
+430,10248691,Xarelto,Xarelto,5045857810,,t,0,74837,WI,100000000232,"Janssen Pharmaceuticals, Inc",16,2014-03-05,1,156257104,2014,0,
+431,10248695,,Xarelto,5045857810,t,f,0,82846,NY,100000000232,"Janssen Pharmaceuticals, Inc",27.43,2014-05-29,1,156257112,2014,0,
 432,10248699,Xarelto,Xarelto,5045857810,t,t,0,37965,OK,100000000232,"Janssen Pharmaceuticals, Inc",11.28,2014-11-03,1,156257120,2014,0,
 433,10249095,,Xarelto,5045857810,t,f,0,49823,TX,100000000232,"Janssen Pharmaceuticals, Inc",120.23,2014-10-14,1,156257974,2014,0,drug-xarelto
 434,10248703,Invokana,Invokana,5045814001,t,t,0,37965,OK,100000000232,"Janssen Pharmaceuticals, Inc",8.49,2014-01-09,1,156257128,2014,0,drug-invokana
 435,10248707,Invega Sustenna,Invega Sustenna,5045856001,t,f,0,353405,CA,100000000232,,18.18,2014-10-15,1,156257140,2014,0,drug-invega-sustenna
 436,10248711,OLYSIO,OLYSIO,5967622528,t,t,0,175058,FL,100000000329,"Janssen Biotech, Inc.",12.94,2014-09-11,1,156257148,2014,0,drug-olysio
 437,10248715,Xarelto,Xarelto,5045857810,t,f,0,223785,FL,100000000232,"Janssen Pharmaceuticals, Inc",3.28,2014-12-01,1,156257156,2014,0,drug-xarelto
-438,10248719,Xarelto,Xarelto,5045857810,t,t,0,76823,,100000000232,"Janssen Pharmaceuticals, Inc",14.37,2014-04-07,1,156257164,2014,0,drug-xarelto
-439,10248723,Remicade,Remicade,,t,t,0,524020,,100000000329,"Janssen Biotech, Inc.",,2014-02-20,1,156257172,2014,0,drug-remicade
-440,10248727,Remicade,Remicade,5789403001,t,t,,524020,,100000000329,"Janssen Biotech, Inc.",,2014-05-08,1,156257180,2014,0,drug-remicade
-441,10248731,Xarelto,Xarelto,5045857810,t,f,0,59013,,100000000232,"Janssen Pharmaceuticals, Inc",,2014-11-03,1,156257188,2014,0,drug-xarelto
-442,10248735,Xarelto,Xarelto,5045857810,t,f,0,110534,,100000000232,"Janssen Pharmaceuticals, Inc",,2014-04-23,1,156257196,2014,0,drug-xarelto
-443,10248739,OLYSIO,OLYSIO,5967622528,t,t,0,109803,,100000000329,,12.86,2014-04-28,1,156257204,2014,0,drug-olysio
-444,10248743,Invokana,Invokana,5045814001,t,f,0,95590,,100000000232,"Janssen Pharmaceuticals, Inc",16.33,2014-03-04,1,156257212,2014,0,drug-invokana
+438,10248719,Xarelto,Xarelto,5045857810,t,t,0,76823,MO,100000000232,"Janssen Pharmaceuticals, Inc",14.37,2014-04-07,1,156257164,2014,0,drug-xarelto
+439,10248723,Remicade,Remicade,,t,t,0,524020,NC,100000000329,"Janssen Biotech, Inc.",,2014-02-20,1,156257172,2014,0,drug-remicade
+440,10248727,Remicade,Remicade,5789403001,t,t,,524020,NC,100000000329,"Janssen Biotech, Inc.",,2014-05-08,1,156257180,2014,0,drug-remicade
+441,10248731,Xarelto,Xarelto,5045857810,t,f,0,59013,NJ,100000000232,"Janssen Pharmaceuticals, Inc",,2014-11-03,1,156257188,2014,0,drug-xarelto
+442,10248735,Xarelto,Xarelto,5045857810,t,f,0,110534,TN,100000000232,"Janssen Pharmaceuticals, Inc",,2014-04-23,1,156257196,2014,0,drug-xarelto
+443,10248739,OLYSIO,OLYSIO,5967622528,t,t,0,109803,NY,100000000329,,12.86,2014-04-28,1,156257204,2014,0,drug-olysio
+444,10248743,Invokana,Invokana,5045814001,t,f,0,95590,MO,100000000232,"Janssen Pharmaceuticals, Inc",16.33,2014-03-04,1,156257212,2014,0,drug-invokana
 445,10248747,Invokana,Invokana,5045814001,t,f,0,95590,MO,100000000232,"Janssen Pharmaceuticals, Inc",11.06,2014-11-04,1,156257220,2014,0,drug-invokana
 446,10248751,Invokana,Invokana,5045814001,t,t,0,271110,NY,100000000232,"Janssen Pharmaceuticals, Inc",16.55,2014-01-18,1,156257228,2014,0,drug-invokana
 447,10248755,Xarelto,Xarelto,5045857810,t,f,0,336118,TX,100000000232,"Janssen Pharmaceuticals, Inc",24.34,2014-01-23,1,156257236,2014,0,drug-xarelto
@@ -451,7 +451,7 @@
 449,10248763,Xarelto,Xarelto,5045857810,t,f,0,336118,TX,100000000232,"Janssen Pharmaceuticals, Inc",18.77,2014-10-10,1,156257252,2014,0,drug-xarelto
 450,10248767,Invokana,Invokana,5045814001,t,t,0,323995,AZ,100000000232,"Janssen Pharmaceuticals, Inc",1.54,2014-01-24,1,156257260,2014,0,drug-invokana
 451,10248771,Invokana,Invokana,5045814001,t,f,0,27963,TX,100000000232,"Janssen Pharmaceuticals, Inc",16.18,2014-03-26,1,156257272,2014,0,drug-invokana
-452,10248775,Xarelto,Xarelto,5045857810,t,t,0,358411,RI,,"Janssen Pharmaceuticals, Inc",14.9,2014-06-20,1,156257282,2014,0,drug-xarelto
+452,10248775,Xarelto,Xarelto,5045857810,t,t,0,358411,RI,100000000232,"Janssen Pharmaceuticals, Inc",14.9,2014-06-20,1,156257282,2014,0,drug-xarelto
 453,10248779,Invokana,Invokana,5045814001,t,f,0,358411,RI,100000000232,"Janssen Pharmaceuticals, Inc",113.22,2014-02-27,1,156257290,2014,0,drug-invokana
 454,10248783,Xarelto,Xarelto,5045857810,t,f,0,358411,RI,100000000232,"Janssen Pharmaceuticals, Inc",100,2014-06-03,1,156257298,2014,0,drug-xarelto
 455,10248787,,Xarelto,5045857810,t,f,0,336045,LA,100000000232,"Janssen Pharmaceuticals, Inc",18.38,2014-10-20,1,156257306,2014,0,drug-xarelto
@@ -459,24 +459,24 @@
 457,10248795,Xarelto,Xarelto,5045857810,t,f,0,1300038,CA,100000000232,"Janssen Pharmaceuticals, Inc",1.91,2014-02-14,1,156257326,2014,0,drug-xarelto
 458,10248799,,Xarelto,5045857810,,f,0,1300038,CA,100000000232,"Janssen Pharmaceuticals, Inc",27.41,2014-11-05,1,156257334,2014,0,drug-xarelto
 459,10248803,Xarelto,Xarelto,5045857810,t,f,0,334777,CT,100000000232,"Janssen Pharmaceuticals, Inc",12.34,2014-09-09,1,156257342,2014,0,drug-xarelto
-460,10248807,Nucynta,Nucynta,5045882002,t,f,0,718268,DE,,"Janssen Pharmaceuticals, Inc",,2014-08-04,1,156257350,2014,0,drug-nucynta
+460,10248807,Nucynta,Nucynta,5045882002,t,f,0,718268,DE,100000000232,"Janssen Pharmaceuticals, Inc",,2014-08-04,1,156257350,2014,0,drug-nucynta
 461,10248811,Xarelto,Xarelto,5045857810,t,t,,181667,VA,100000000232,"Janssen Pharmaceuticals, Inc",,2014-07-24,1,156257360,2014,0,drug-xarelto
-462,10248815,Nucynta,,5045882002,t,f,0,209542,CA,100000000232,"Janssen Pharmaceuticals, Inc",,2014-04-01,1,156257368,2014,0,drug-nucynta
+462,10248815,Nucynta,Nucynta,5045882002,t,f,0,209542,CA,100000000232,"Janssen Pharmaceuticals, Inc",,2014-04-01,1,156257368,2014,0,drug-nucynta
 463,10248819,Nucynta,Nucynta,,t,f,0,209542,CA,100000000232,"Janssen Pharmaceuticals, Inc",3.82,2014-07-02,1,156257376,2014,0,drug-nucynta
 464,10248823,Nucynta,Nucynta,5045882002,t,f,0,209542,CA,100000000232,"Janssen Pharmaceuticals, Inc",11.14,2014-08-21,1,156257384,2014,0,drug-nucynta
-465,10248827,Nucynta,Nucynta,5045882002,t,f,0,209542,,100000000232,,4.54,2014-09-30,1,156257392,2014,0,drug-nucynta
+465,10248827,Nucynta,Nucynta,5045882002,t,f,0,209542,CA,100000000232,,4.54,2014-09-30,1,156257392,2014,0,drug-nucynta
 466,10248831,Xarelto,Xarelto,5045857810,t,f,0,176669,NJ,100000000232,"Janssen Pharmaceuticals, Inc",13,2014-12-20,1,156257414,2014,0,drug-xarelto
 467,10248835,Xarelto,Xarelto,5045857810,t,f,0,294522,OH,100000000232,"Janssen Pharmaceuticals, Inc",14.24,2014-10-28,1,156257422,2014,0,drug-xarelto
 468,10248839,Xarelto,Xarelto,5045857810,t,f,0,258565,MI,100000000232,"Janssen Pharmaceuticals, Inc",14.15,2014-10-29,1,156257430,2014,0,drug-xarelto
 469,10248843,Xarelto,Xarelto,5045857810,t,f,0,563052,OH,100000000232,"Janssen Pharmaceuticals, Inc",17.1,2014-06-12,1,156257438,2014,0,drug-xarelto
-470,10248847,Simponi,Simponi,5789407001,t,t,0,306348,OH,,"Janssen Biotech, Inc.",14.88,2014-05-16,1,156257446,2014,0,drug-simponi
+470,10248847,Simponi,Simponi,5789407001,t,t,0,306348,OH,100000000329,"Janssen Biotech, Inc.",14.88,2014-05-16,1,156257446,2014,0,drug-simponi
 471,10248851,Simponi,Simponi,5789407001,t,,0,306348,OH,100000000329,,4.06,2014-11-07,1,156257454,2014,0,drug-simponi
 472,10248855,Olysio,Olysio,5967626140,t,f,0,,TX,100000000325,"Janssen Products, LP",77.94,2014-05-08,1,156257464,2014,0,drug-olysio
 473,10248859,Remicade,Remicade,5789403001,t,t,,320822,TX,100000000329,"Janssen Biotech, Inc.",9.97,2014-03-26,1,156257472,2014,0,drug-remicade
 474,10248863,Invokana,Invokana,5045814001,t,f,0,231381,GA,100000000232,"Janssen Pharmaceuticals, Inc",40,2014-11-14,1,156257478,2014,0,
-475,10248867,Xarelto,Xarelto,5045857810,t,,0,54282,,100000000232,"Janssen Pharmaceuticals, Inc",2.26,2014-05-21,1,156257488,2014,0,
+475,10248867,Xarelto,Xarelto,5045857810,t,,0,54282,IL,100000000232,"Janssen Pharmaceuticals, Inc",2.26,2014-05-21,1,156257488,2014,0,
 476,10248871,Nucynta,Nucynta,5045882002,t,f,0,5198,LA,100000000232,"Janssen Pharmaceuticals, Inc",16.97,2014-04-29,1,156257496,2014,0,
-477,10248875,Simponi Aria,Simponi Aria,5789435089,t,t,0,63383,,100000000329,"Janssen Biotech, Inc.",28.26,2014-03-27,1,156257512,2014,0,
+477,10248875,Simponi Aria,Simponi Aria,5789435089,t,t,0,63383,NY,100000000329,"Janssen Biotech, Inc.",28.26,2014-03-27,1,156257512,2014,0,
 478,10248879,,Simponi Aria,5789435089,t,t,0,63383,NY,100000000329,"Janssen Biotech, Inc.",3.39,2014-01-16,1,156257520,2014,0,drug-simponi-aria
 479,10248883,Simponi Aria,Simponi Aria,5789435089,t,t,0,63383,NY,100000000329,"Janssen Biotech, Inc.",2.06,2014-02-13,1,156257528,2014,0,drug-simponi-aria
 480,10248887,Simponi Aria,Simponi Aria,5789435089,t,t,0,63383,NY,100000000329,"Janssen Biotech, Inc.",2.59,2014-06-23,1,156257536,2014,0,drug-simponi-aria
@@ -487,12 +487,12 @@
 485,,Simponi Aria,Simponi Aria,5789435089,t,f,0,63383,NY,100000000329,"Janssen Biotech, Inc.",85.13,,1,156257576,2014,0,drug-simponi-aria
 486,10248911,Simponi Aria,Simponi Aria,5789435089,t,f,0,63383,NY,100000000329,"Janssen Biotech, Inc.",11.25,2014-11-12,1,156257584,2014,0,drug-simponi-aria
 487,10248915,Invokana,Invokana,5045814001,t,t,0,8341,MI,100000000232,,4.44,2014-09-12,1,156257594,2014,0,drug-invokana
-488,10248919,,,5045857810,t,f,0,1108740,TN,100000000232,"Janssen Pharmaceuticals, Inc",9.98,2014-04-07,1,156257602,2014,0,drug-xarelto
+488,10248919,,Xarelto,5045857810,t,f,0,1108740,TN,100000000232,"Janssen Pharmaceuticals, Inc",9.98,2014-04-07,1,156257602,2014,0,drug-xarelto
 489,10248923,Invokana,Invokana,5045814001,t,t,0,11095,NJ,100000000232,"Janssen Pharmaceuticals, Inc",13.66,2014-03-27,1,156257610,2014,0,drug-invokana
 490,10248927,Xarelto,Xarelto,5045857810,t,f,0,11095,NJ,100000000232,"Janssen Pharmaceuticals, Inc",2.3,2014-03-31,1,156257618,2014,0,drug-xarelto
 491,10248931,Olysio,Olysio,5967622896,t,f,0,198127,NJ,100000000232,"Janssen Pharmaceuticals, Inc",3000,2014-03-31,1,156257630,2014,0,drug-olysio
 492,10248935,Olysio,Olysio,5967623168,t,f,0,198127,NJ,100000000325,"Janssen Products, LP",1500,2014-06-16,1,156257638,2014,0,drug-olysio
-493,10248939,Olysio,Olysio,,t,f,0,198127,NJ,,"Janssen Products, LP",139.98,2014-05-13,1,156257646,2014,0,drug-olysio
+493,10248939,Olysio,Olysio,,t,f,0,198127,NJ,100000000325,"Janssen Products, LP",139.98,2014-05-13,1,156257646,2014,0,drug-olysio
 494,10248943,Olysio,Olysio,5967626433,t,f,0,198127,NJ,100000000325,"Janssen Products, LP",61,2014-05-27,1,156257654,2014,0,
 495,10248947,Prezista,Prezista,5967656101,t,f,0,198127,NJ,100000000329,"Janssen Biotech, Inc.",23.08,2014-07-22,1,156257662,2014,0,drug-prezista
 496,10248951,Prezista,Prezista,5967656101,t,f,0,198127,NJ,100000000325,"Janssen Products, LP",2500,2014-10-24,1,156257670,2014,0,drug-prezista
