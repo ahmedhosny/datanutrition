@@ -6,6 +6,7 @@ import Section from "./Section";
 import Header from "./Header";
 import Spacer from "./Spacer";
 import Statistics from "./Statistics";
+import Matrix from "./Matrix";
 import { Element } from "react-scroll";
 
 /**
@@ -18,7 +19,7 @@ class Label extends Component {
    * @return {ReactElement}
    */
   render() {
-    const { data } = this.props;
+    const { data, raw } = this.props;
     const GCard = glamorous(Card)({
       border: "5px solid black",
       padding: 0
@@ -48,6 +49,10 @@ class Label extends Component {
             <Element name="statistics">
               <Statistics data={data.statistics} />
             </Element>
+            <Spacer />
+            <Element name="matrix">
+              <Matrix raw={raw} />
+            </Element>
           </GCardContent>
         </GCard>
       </div>
@@ -55,6 +60,7 @@ class Label extends Component {
   }
 }
 Label.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
+  raw: PropTypes.object.isRequired
 };
 export default Label;

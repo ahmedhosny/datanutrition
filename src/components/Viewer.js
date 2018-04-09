@@ -15,7 +15,7 @@ class Viewer extends Component {
    * @return {ReactElement}
    */
   render() {
-    const { data } = this.props;
+    const { data, raw } = this.props;
     const GGrid = Glamorous(Grid)({
       position: "sticky",
       top: 0,
@@ -28,7 +28,7 @@ class Viewer extends Component {
             <Navigation />
           </GGrid>
           <Grid item xs={12} sm={12} md={8}>
-            <Label data={data} />
+            <Label data={data} raw={raw} />
           </Grid>
           <Grid item xs={12} sm={12} md={2} />
         </Grid>
@@ -37,6 +37,7 @@ class Viewer extends Component {
   }
 }
 Viewer.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
+  raw: PropTypes.object.isRequired
 };
 export default Viewer;

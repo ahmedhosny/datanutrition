@@ -88,6 +88,19 @@ class Navigation extends Component {
               statistics
             </Link>
           </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="matrix"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onSetActive={this.handleSetActive}
+            >
+              matrix
+            </Link>
+          </li>
         </ul>
       </GDiv>
     );
