@@ -4,7 +4,7 @@ import data from "./data";
 import { getStats } from "./utils/statistics";
 import "./App.css";
 
-getStats();
+// getStats();
 
 class App extends Component {
   render() {

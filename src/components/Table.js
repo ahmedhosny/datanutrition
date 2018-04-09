@@ -1,16 +1,13 @@
 import React, { Component } from "react";
-import { makeData } from "./utils";
 import ReactTable from "react-table";
-import "react-table/react-table.css";
 import glamorous from "glamorous";
 import Typo from "./Typo";
 import Line from "./Line";
 import _ from "lodash";
 
+import "react-table/react-table.css";
+
 class Table extends Component {
-  constructor() {
-    super();
-  }
   render() {
     const { title, data } = this.props;
     const GReactTable = glamorous(ReactTable)({

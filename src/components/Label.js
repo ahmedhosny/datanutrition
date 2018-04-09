@@ -5,7 +5,7 @@ import Card, { CardContent } from "material-ui/Card";
 import Section from "./Section";
 import Header from "./Header";
 import Spacer from "./Spacer";
-import Table from "./Table";
+import Statistics from "./Statistics";
 import { Element } from "react-scroll";
 
 /**
@@ -46,8 +46,7 @@ class Label extends Component {
             </Element>
             <Spacer />
             <Element name="statistics">
-              <Section title={"Statistics"} data={{}} />
-              <Table title={"Ordinal"} data={data.statistics.ordinal} />
+              <Statistics data={data.statistics} />
             </Element>
           </GCardContent>
         </GCard>
