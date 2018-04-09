@@ -22,7 +22,7 @@
 body {
   margin: 0;
   padding: 0;
-  /* font-family: "HelveticaLTStd-Roman", Helvetica, Arial, sans-serif; */
+  font-family: "HelveticaLTStd-Roman", Helvetica, Arial, sans-serif;
   background-color: #eeeeee;
   -webkit-font-smoothing: antialiased;
   max-width: 100%;
