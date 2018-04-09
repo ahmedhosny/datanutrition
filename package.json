@@ -8,12 +8,14 @@
     "glamorous": "^4.12.1",
     "lodash": "^4.17.5",
     "material-ui": "^1.0.0-beta.38",
+    "namor": "^1.0.1",
     "papaparse": "^4.3.7",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
     "react-scroll": "^1.7.7",
+    "react-table": "^6.8.0",
     "simple-statistics": "^5.3.1"
   },
   "scripts": {

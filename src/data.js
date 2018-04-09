@@ -71,84 +71,148 @@ const data = {
       {
         name: "id",
         type: "number",
-        stats: []
+        count: 500,
+        uniqueEntries: "488 including missing",
+        mostFrequent: "missing value (13)",
+        leastFrequent: "multiple detected",
+        missing: "2.60%"
       },
       {
         name: "applicable_manufacturer_or_applicable_gpo_making_payment_id",
         type: "number",
-        stats: []
+        count: 500,
+        uniqueEntries: "4",
+        mostFrequent: "100000000232 (417)",
+        leastFrequent: "multiple detected",
+        missing: "0%"
       },
       {
         name: "date_of_payment",
         type: "date",
-        stats: []
+        count: 500,
+        uniqueEntries: "213 including missing",
+        mostFrequent: "missing value (27)",
+        leastFrequent: "multiple detected",
+        missing: "5.40%"
       },
       {
         name: "general_transaction_id",
         type: "number",
-        stats: []
+        count: 500,
+        uniqueEntries: "467 including missing",
+        mostFrequent: "missing value (34)",
+        leastFrequent: "multiple detected",
+        missing: "6.80%"
       },
       {
         name: "program_year",
         type: "number",
-        stats: []
+        count: 500,
+        uniqueEntries: "2 including missing",
+        mostFrequent: "2014 (495)",
+        leastFrequent: "missing value (5)",
+        missing: "1.00%"
       }
     ],
     nominal: [
       {
         name: "product_name",
         type: "string",
-        stats: []
+        count: 500,
+        uniqueEntries: "16 including missing",
+        mostFrequent: "Xarelto (200)",
+        leastFrequent: "Aciphex (1)",
+        missing: "3.20%"
       },
       {
         name: "original_product_name",
         type: "string",
-        stats: []
+        count: 500,
+        uniqueEntries: "15",
+        mostFrequent: "Xarelto (212)",
+        leastFrequent: "Aciphex (1)",
+        missing: "0%"
       },
       {
         name: "product_ndc",
         type: "number",
-        stats: []
+        count: 500,
+        uniqueEntries: "21 including missing",
+        mostFrequent: "5045857810 (201)",
+        leastFrequent: "multiple detected",
+        missing: "5.00%"
       },
       {
         name: "product_is_drug",
         type: "boolean",
-        stats: []
+        count: 500,
+        uniqueEntries: "2 including missing",
+        mostFrequent: "t (492)",
+        leastFrequent: "missing value (8)",
+        missing: "1.60%"
       },
       {
         name: "payment_has_many",
         type: "boolean",
-        stats: []
+        count: 500,
+        uniqueEntries: "3 including missing",
+        mostFrequent: "f (267)",
+        leastFrequent: "missing value (29)",
+        missing: "5.80%"
       },
       {
         name: "teaching_hospital_id",
         type: "number",
-        stats: []
+        count: 500,
+        uniqueEntries: "2 including missing",
+        mostFrequent: "0 (464)",
+        leastFrequent: "missing value (36)",
+        missing: "7.20%"
       },
       {
         name: "physician_profile_id",
         type: "number",
-        stats: []
+        count: 500,
+        uniqueEntries: "230 including missing",
+        mostFrequent: "missing value (32)",
+        leastFrequent: "multiple detected",
+        missing: "6.40%"
       },
       {
         name: "recipient_state",
         type: "string",
-        stats: []
+        count: 500,
+        uniqueEntries: "40",
+        mostFrequent: "CA (56)",
+        leastFrequent: "multiple detected",
+        missing: "0%"
       },
       {
         name: "applicable_manufacturer_or_applicable_gpo_making_payment_name",
         type: "string",
-        stats: []
+        count: 500,
+        uniqueEntries: "5 including missing",
+        mostFrequent: "Janssen Pharmaceuticals, Inc (386)",
+        leastFrequent: "multiple detected",
+        missing: "7.00%"
       },
       {
         name: "teaching_hospital_ccn",
         type: "number",
-        stats: []
+        count: 500,
+        uniqueEntries: "2 including missing",
+        mostFrequent: "0 (481)",
+        leastFrequent: "missing value (19)",
+        missing: "3.80%"
       },
       {
         name: "product_slug",
         type: "string",
-        stats: []
+        count: 500,
+        uniqueEntries: "15 including missing",
+        mostFrequent: "drug-xarelto (196)",
+        leastFrequent: "drug-aciphex (1)",
+        missing: "8.20%"
       }
     ],
     continuous: [],

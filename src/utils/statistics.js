@@ -21,7 +21,7 @@ export function getStats() {
         }))
       );
       const stats = getOrdinalNominal(data, transposed, noOfRows);
-      console.log(stats);
+      console.log(JSON.stringify(stats));
     }
   });
 }
@@ -44,7 +44,6 @@ function getOrdinalNominal(data, trasnposed, noOfRows) {
     const count = _.countBy(column);
     const uniqueEntries = _.uniq(column).length;
     const uniqueEntriesString = getUnique(column, count);
-    console.log(count);
     const obj = {
       name: m.name,
       count: column.length,
@@ -104,6 +103,7 @@ function getFreq(count, noOfRows, unique, which) {
       : "multiple detected";
   }
 }
+
 /**
  * Calculate missing percentage
  * @param  {object} count    count from lodash
