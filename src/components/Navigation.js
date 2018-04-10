@@ -91,14 +91,27 @@ class Navigation extends Component {
           <li>
             <Link
               activeClass="active"
-              to="matrix"
+              to="pairplot"
               spy={true}
               smooth={true}
               offset={-50}
               duration={500}
               onSetActive={this.handleSetActive}
             >
-              matrix
+              pair plot
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="probabilistic"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onSetActive={this.handleSetActive}
+            >
+              Probabilistic modeling
             </Link>
           </li>
         </ul>

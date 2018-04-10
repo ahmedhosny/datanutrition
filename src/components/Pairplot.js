@@ -9,7 +9,7 @@ const GPlot = glamorous(Plot)({
   height: 900
 });
 
-class Matrix extends Component {
+class Pairplot extends Component {
   render() {
     const { raw } = this.props;
     var trace1 = {
@@ -66,11 +66,11 @@ class Matrix extends Component {
     };
     return (
       <div>
-        <Typo content={"Matrix"} size={4} />
+        <Typo content={"Pair Plot"} size={4} />
         <Line thickness={9} />
         <GPlot useResizeHandler={true} data={data} layout={layout} />
       </div>
     );
   }
 }
-export default Matrix;
+export default Pairplot;
