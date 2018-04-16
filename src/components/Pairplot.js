@@ -12,30 +12,58 @@ const GPlot = glamorous(Plot)({
 class Pairplot extends Component {
   render() {
     const { raw } = this.props;
+    // bottom left
     var trace1 = {
-      z: [[1, 20, 30], [20, 1, 60], [30, 60, 1]],
-      type: "heatmap"
+      x: raw["product_name"],
+      y: raw["total_amount_of_payment_usdollars"],
+      type: "histogram2d",
+      colorscale: "Greys",
+      reversescale: true,
+      showlegend: false
     };
-
+    // bottom right
     var trace2 = {
-      x: raw["physician_profile_id"],
+      x: raw["total_amount_of_payment_usdollars"],
       type: "histogram",
       xaxis: "x2",
-      yaxis: "y2"
+      yaxis: "y2",
+      showlegend: false,
+      marker: {
+        color: "white",
+        line: {
+          color: "black",
+          width: 2
+        }
+      }
     };
-
+    // top left
     var trace3 = {
       x: raw["product_name"],
       type: "histogram",
       xaxis: "x3",
-      yaxis: "y3"
+      yaxis: "y3",
+      showlegend: false,
+      marker: {
+        color: "white",
+        line: {
+          color: "black",
+          width: 2
+        }
+      }
     };
-
+    // top right
     var trace4 = {
-      z: [[1, 20, 30], [20, 1, 60], [30, 60, 1]],
-      type: "heatmap",
+      x: raw["total_amount_of_payment_usdollars"],
+      y: raw["product_name"],
+      type: "histogram2d",
+      colorscale: "Greys",
       xaxis: "x4",
-      yaxis: "y4"
+      yaxis: "y4",
+      reversescale: true,
+      xbins: {
+        size: 100
+      },
+      showlegend: false
     };
 
     var data = [trace1, trace2, trace3, trace4];
@@ -43,24 +71,25 @@ class Pairplot extends Component {
     var layout = {
       autosize: true,
       title: "",
-      xaxis: { domain: [0, 0.45] },
-      yaxis: { domain: [0, 0.45] },
+      xaxis: { domain: [0, 0.43] },
+      yaxis: { domain: [0, 0.43] },
       xaxis4: {
-        domain: [0.55, 1],
+        domain: [0.58, 1],
         anchor: "y4"
       },
+
       xaxis3: {
-        domain: [0, 0.45],
+        domain: [0, 0.43],
         anchor: "y3"
       },
-      xaxis2: { domain: [0.55, 1] },
+      xaxis2: { domain: [0.58, 1] },
       yaxis2: {
-        domain: [0, 0.45],
+        domain: [0, 0.43],
         anchor: "x2"
       },
-      yaxis3: { domain: [0.55, 1] },
+      yaxis3: { domain: [0.58, 1] },
       yaxis4: {
-        domain: [0.55, 1],
+        domain: [0.58, 1],
         anchor: "x4"
       }
     };

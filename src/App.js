@@ -8,7 +8,7 @@ import "./App.css";
 /**
  * Only run to get statistics in the console
  */
-getStats();
+// getStats();
 
 const url =
   "https://raw.githubusercontent.com/ahmedhosny/datanutrition/master/src/utils/sample_missing.csv";

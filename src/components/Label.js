@@ -56,6 +56,7 @@ class Label extends Component {
             <Element name="pairplot">
               <Pairplot raw={raw} />
             </Element>
+            <Spacer />
             <Element name="probabilistic">
               <Typo content={"Probabilistic Modelling"} size={4} />
               <Line thickness={9} />
