@@ -5,7 +5,10 @@ import data from "./data";
 import { getStats } from "./utils/statistics";
 import "./App.css";
 
-// getStats();
+/**
+ * Only run to get statistics in the console
+ */
+getStats();
 
 const url =
   "https://raw.githubusercontent.com/ahmedhosny/datanutrition/master/src/utils/sample_missing.csv";
@@ -24,7 +27,6 @@ class App extends Component {
         [key]: results.data.map(o => o[key])
       }))
     );
-    console.log(transposed);
     this.setState({
       raw: transposed
     });

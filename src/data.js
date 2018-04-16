@@ -215,29 +215,35 @@ const data = {
         missing: "8.20%"
       }
     ],
-    continuous: [],
-    discrete: []
+    continuous: [
+      {
+        name: "total_amount_of_payment_usdollars",
+        type: "number",
+        count: 500,
+        min: 0.14,
+        median: "14.00",
+        max: 5000,
+        mean: "134.21",
+        standardDeviation: "501.99",
+        missing: "9.40%",
+        zeros: "0%"
+      }
+    ],
+    discrete: [
+      {
+        name: "number_of_payments_included_in_total_amount",
+        type: "number",
+        count: 500,
+        min: 1,
+        median: "1.00",
+        max: 1,
+        mean: "1.00",
+        standardDeviation: "0.00",
+        missing: "4.80%",
+        zeros: "0%"
+      }
+    ]
   }
-
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //   total_amount_of_payment_usdollars: {
-  //     description:
-  //       "U.S. dollar amount of payment or other transfer of value to recipient (manufacturer must convert to dollar currency if necessary)",
-  //     type: "continuous"
-  //   },
-  //   number_of_payments_included_in_total_amount: {
-  //     description:
-  //       "The number of discrete payments being reported in the 'Total Amount of Payment' data element",
-  //     type: "discrete"
-  //   }
-  // }
 
   // Caution	Do not sum the total_amount field. CMS does not split totals per drug or medical device. Instead, this table is useful for counting how many payments were attributed to a singular drug or device or which doctors were associated with which products.
   // Other warning maybe?
