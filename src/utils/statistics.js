@@ -27,7 +27,7 @@ export function getStats() {
         transposed,
         noOfRows
       );
-      console.log(JSON.stringify(continuousDiscrete));
+      // console.log(JSON.stringify(continuousDiscrete));
     }
   });
 }

@@ -8,7 +8,6 @@ import Spacer from "./Spacer";
 import Statistics from "./Statistics";
 import Pairplot from "./Pairplot";
 import { Element } from "react-scroll";
-
 import Typo from "./Typo";
 import Line from "./Line";
 

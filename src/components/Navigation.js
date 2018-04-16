@@ -30,7 +30,8 @@ class Navigation extends Component {
       position: "sticky",
       top: 0,
       backgroundColor: "#eeeeee",
-      cursor: "pointer"
+      cursor: "pointer",
+      zIndex: 9999
     });
     return (
       <GDiv>
