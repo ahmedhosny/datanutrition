@@ -47,7 +47,7 @@ class ParallelCoords extends Component {
           range: [1, 3],
           tickvals: [1, 2, 3],
           ticktext: ["no exposure", "semi-exposure", "full exposure"],
-          label: "exposes dataset",
+          label: "exposes data",
           values: _.reverse([1, 1, 2, 2, 3, 3, 3])
         },
         {
@@ -77,6 +77,13 @@ class ParallelCoords extends Component {
           ticktext: ["low", "medium", "high"],
           label: "skill required",
           values: _.reverse([1, 1, 1, 2, 2, 3, 2])
+        },
+        {
+          range: [1, 3],
+          tickvals: [1, 2, 3],
+          ticktext: ["qualitative", "semi-quantitative", "quantitative"],
+          label: "measure",
+          values: _.reverse([1, 1, 1, 3, 3, 3, 3])
         }
       ]
     };

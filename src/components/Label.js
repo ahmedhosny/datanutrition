@@ -11,6 +11,7 @@ import GroundTruth from "./GroundTruth";
 import { Element } from "react-scroll";
 import Typo from "./Typo";
 import Line from "./Line";
+import Wrapper from "./Wrapper";
 
 /**
  * The component
@@ -33,41 +34,38 @@ class Label extends Component {
     });
     return (
       <div>
-        <GCard>
-          <GCardContent>
-            <Header title={data.title} />
-            <Spacer />
-            <Element name="metadata">
-              <Section title={"Metadata"} data={data.metadata} />
-            </Element>
-            <Spacer />
-            <Element name="provenance">
-              <Section title={"Provenance"} data={data.provenance} />
-            </Element>
-            <Spacer />
-            <Element name="variables">
-              <Section title={"Variables"} data={data.variables} />
-            </Element>
-            <Spacer />
-            <Element name="statistics">
-              <Statistics data={data.statistics} />
-            </Element>
-            <Spacer />
-            <Element name="pairplot">
-              <PairPlot raw={raw} />
-            </Element>
-            <Spacer />
-            <Element name="probabilistic">
+        <Wrapper name="" content={<Header title={data.title} />} />
+        <Wrapper
+          name="metadata"
+          content={<Section title={"Metadata"} data={data.metadata} />}
+        />
+        <Wrapper
+          name="provenance"
+          content={<Section title={"Provenance"} data={data.provenance} />}
+        />
+        <Wrapper
+          name="variables"
+          content={<Section title={"Variables"} data={data.variables} />}
+        />
+        <Wrapper
+          name="statistics"
+          content={<Statistics data={data.statistics} />}
+        />
+        <Wrapper name="pairplot" content={<PairPlot raw={raw} />} />
+        <Wrapper
+          name="probabilistic"
+          content={
+            <div>
               <Typo content={"Probabilistic Modelling"} size={4} />
               <Line thickness={9} />
               <img style={{ width: "100%" }} src="img/crosscat_results.png" />
-            </Element>
-            <Spacer />
-            <Element name="groundtruth">
-              <GroundTruth data={data.groundtruth} />
-            </Element>
-          </GCardContent>
-        </GCard>
+            </div>
+          }
+        />
+        <Wrapper
+          name="groundtruth"
+          content={<GroundTruth data={data.groundtruth} />}
+        />
       </div>
     );
   }
