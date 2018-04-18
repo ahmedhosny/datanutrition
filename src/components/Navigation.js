@@ -47,7 +47,7 @@ class Navigation extends Component {
               duration={500}
               onSetActive={this.handleSetActive}
             >
-              metadata
+              Metadata
             </Link>
           </li>
           <li>
@@ -60,7 +60,7 @@ class Navigation extends Component {
               duration={500}
               onSetActive={this.handleSetActive}
             >
-              provenance
+              Provenance
             </Link>
           </li>
           <li>
@@ -73,7 +73,7 @@ class Navigation extends Component {
               duration={500}
               onSetActive={this.handleSetActive}
             >
-              variables
+              Variables
             </Link>
           </li>
           <li>
@@ -86,7 +86,7 @@ class Navigation extends Component {
               duration={500}
               onSetActive={this.handleSetActive}
             >
-              statistics
+              Statistics
             </Link>
           </li>
           <li>
@@ -99,7 +99,7 @@ class Navigation extends Component {
               duration={500}
               onSetActive={this.handleSetActive}
             >
-              pair plot
+              Pair Plot
             </Link>
           </li>
           <li>
@@ -112,7 +112,20 @@ class Navigation extends Component {
               duration={500}
               onSetActive={this.handleSetActive}
             >
-              Probabilistic modeling
+              Probabilistic Modeling
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="groundtruth"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onSetActive={this.handleSetActive}
+            >
+              Ground Truth Correlations
             </Link>
           </li>
         </ul>

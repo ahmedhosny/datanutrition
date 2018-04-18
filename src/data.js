@@ -243,6 +243,55 @@ const data = {
         zeros: "0%"
       }
     ]
+  },
+  groundtruth: {
+    // total_spend
+    total_amount_of_payment_usdollars: {
+      total_population: 0.133329,
+      White_alone: 0.207917,
+      Black_or_African_American_alone: -0.033454,
+      American_Indian_and_Alaska_Native_alone: 0.003296,
+      Asian_alone: 0.066814,
+      Native_Hawaiian_and_Other_Pacific_Islander_alone: 0.019523,
+      Some_Other_Race_alone: -0.004408,
+      Two_or_More_Races: 0.109671,
+      Hispanic_or_Latino: 0.006774,
+      Urban: 0.143797,
+      Rural: -0.117904,
+      White_alone_fraction: 0.058516,
+      Black_or_African_American_alone_fraction: -0.06152,
+      American_Indian_and_Alaska_Native_alone_fraction: -0.064703,
+      Asian_alone_fraction: 0.049566,
+      Native_Hawaiian_and_Other_Pacific_Islander_alone_fraction: -0.033035,
+      Some_Other_Race_alone_fraction: -0.087694,
+      Two_or_More_Races_fraction: -0.014509,
+      Hispanic_or_Latino_fraction: -0.086743,
+      Urban_fraction: 0.16001,
+      Rural_fraction: -0.16001
+    },
+    spend_per_person: {
+      total_population: -0.103503,
+      White_alone: -0.080727,
+      Black_or_African_American_alone: -0.060158,
+      American_Indian_and_Alaska_Native_alone: -0.096261,
+      Asian_alone: -0.049087,
+      Native_Hawaiian_and_Other_Pacific_Islander_alone: -0.053541,
+      Some_Other_Race_alone: -0.08251,
+      Two_or_More_Races: -0.101051,
+      Hispanic_or_Latino: -0.085147,
+      Urban: -0.095544,
+      Rural: -0.053595,
+      White_alone_fraction: 0.080405,
+      Black_or_African_American_alone_fraction: -0.016709,
+      American_Indian_and_Alaska_Native_alone_fraction: -0.029631,
+      Asian_alone_fraction: -0.001635,
+      Native_Hawaiian_and_Other_Pacific_Islander_alone_fraction: -0.054046,
+      Some_Other_Race_alone_fraction: -0.097512,
+      Two_or_More_Races_fraction: -0.092412,
+      Hispanic_or_Latino_fraction: -0.100949,
+      Urban_fraction: 0.011048,
+      Rural_fraction: -0.011048
+    }
   }
 
   // Caution	Do not sum the total_amount field. CMS does not split totals per drug or medical device. Instead, this table is useful for counting how many payments were attributed to a singular drug or device or which doctors were associated with which products.

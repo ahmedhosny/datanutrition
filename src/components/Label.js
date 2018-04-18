@@ -6,7 +6,8 @@ import Section from "./Section";
 import Header from "./Header";
 import Spacer from "./Spacer";
 import Statistics from "./Statistics";
-import Pairplot from "./Pairplot";
+import PairPlot from "./PairPlot";
+import GroundTruth from "./GroundTruth";
 import { Element } from "react-scroll";
 import Typo from "./Typo";
 import Line from "./Line";
@@ -53,13 +54,17 @@ class Label extends Component {
             </Element>
             <Spacer />
             <Element name="pairplot">
-              <Pairplot raw={raw} />
+              <PairPlot raw={raw} />
             </Element>
             <Spacer />
             <Element name="probabilistic">
               <Typo content={"Probabilistic Modelling"} size={4} />
               <Line thickness={9} />
               <img style={{ width: "100%" }} src="img/crosscat_results.png" />
+            </Element>
+            <Spacer />
+            <Element name="groundtruth">
+              <GroundTruth data={data.groundtruth} />
             </Element>
           </GCardContent>
         </GCard>

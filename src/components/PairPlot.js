@@ -20,7 +20,7 @@ const marker = {
   }
 };
 
-class Pairplot extends Component {
+class PairPlot extends Component {
   state = {
     choiceA: "product_name",
     choiceB: "recipient_state"
@@ -163,4 +163,4 @@ class Pairplot extends Component {
     );
   }
 }
-export default Pairplot;
+export default PairPlot;
