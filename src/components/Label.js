@@ -8,6 +8,7 @@ import Spacer from "./Spacer";
 import Statistics from "./Statistics";
 import PairPlot from "./PairPlot";
 import GroundTruth from "./GroundTruth";
+import Probabilistic from "./Probabilistic";
 import { Element } from "react-scroll";
 import Typo from "./Typo";
 import Line from "./Line";
@@ -54,13 +55,7 @@ class Label extends Component {
         <Wrapper name="pairplot" content={<PairPlot raw={raw} />} />
         <Wrapper
           name="probabilistic"
-          content={
-            <div>
-              <Typo content={"Probabilistic Modelling"} size={4} />
-              <Line thickness={9} />
-              <img style={{ width: "100%" }} src="img/crosscat_results.png" />
-            </div>
-          }
+          content={<Probabilistic data={data.probabilistic} />}
         />
         <Wrapper
           name="groundtruth"

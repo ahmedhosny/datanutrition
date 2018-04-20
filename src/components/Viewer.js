@@ -5,6 +5,9 @@ import Grid from "material-ui/Grid";
 import Navigation from "./Navigation";
 import Label from "./Label";
 import ParallelCoords from "./ParallelCoords";
+import Description from "./Description";
+import { Element } from "react-scroll";
+
 /**
  * The component
  * @type {Object}
@@ -28,7 +31,9 @@ class Viewer extends Component {
             <Navigation />
           </GGrid>
           <Grid item xs={12} sm={12} md={8}>
-            <ParallelCoords />
+            <Element name={"introduction"}>
+              <Description />
+            </Element>
             <Label data={data} raw={raw} />
           </Grid>
           <Grid item xs={12} sm={12} md={2} />
@@ -42,3 +47,4 @@ Viewer.propTypes = {
   raw: PropTypes.object.isRequired
 };
 export default Viewer;
+//             <ParallelCoords />
