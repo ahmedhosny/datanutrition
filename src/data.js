@@ -9,7 +9,7 @@ const data = {
     type: "tabular",
     rows: 500,
     columns: 18,
-    missing: "%",
+    missing: "5.2%",
     license: "cc",
     released: "JAN 2017",
     range: { from: "AUG 2013", to: "DEC 2015" },
