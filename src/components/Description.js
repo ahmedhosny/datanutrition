@@ -27,7 +27,7 @@ class Description extends Component {
       <GDiv>
         <Grid container spacing={24}>
           <Grid item xs={12} sm={12} md={12}>
-            The <GStrong>Dataset Nutrition Label</GStrong> project aims to
+            The <GStrong>Dataset Nutrition Label</GStrong> aims to
             create a standard for interrogating datasets for measures that will
             ultimately drive the creation of better, more inclusive machine
             learning models. Our current prototype includes several ‘modules’
