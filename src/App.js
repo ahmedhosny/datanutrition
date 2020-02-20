@@ -46,7 +46,7 @@ class App extends Component {
         <header className="App-header">
           <img src={"img/logo-s.png"} style={{ height: "100%" }} />
           <div style={{ height: "100%", flex: 1 }}>
-            <h1 className="App-title">Dataset Nutrition Label Prototype</h1>
+            <h1 className="App-title">Dataset Nutrition Label</h1>
           </div>
         </header>
         <Viewer data={data} raw={raw} />
