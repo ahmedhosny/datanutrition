@@ -42,7 +42,7 @@ class Description extends Component {
             />
             <br />
             <br />
-            We developed this prototype on ProPublica’s Dollars for Docs
+            We developed this Label on ProPublica’s Dollars for Docs
             (2013-2015){" "}
             <a
               href="https://projects.propublica.org/docdollars/"
@@ -54,7 +54,7 @@ class Description extends Component {
             left.
             <br />
             <br />
-            To learn more about our project, please visit our{" "}
+            To learn more, please visit our{" "}
             <a href="http://datanutrition.media.mit.edu/" target="_blank">
               website
             </a>, read our{" "}
