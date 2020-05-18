@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Glamorous from "glamorous";
-import Grid from "material-ui/Grid";
+import Grid from "@material-ui/core/Grid";
 
 /**
  * The component
@@ -27,8 +27,8 @@ class Description extends Component {
       <GDiv>
         <Grid container spacing={24}>
           <Grid item xs={12} sm={12} md={12}>
-            The <GStrong>Dataset Nutrition Label</GStrong> aims to
-            create a standard for interrogating datasets for measures that will
+            The <GStrong>Dataset Nutrition Label</GStrong> aims to create a
+            standard for interrogating datasets for measures that will
             ultimately drive the creation of better, more inclusive machine
             learning models. Our current prototype includes several ‘modules’
             across a variety of qualitative and quantitative data that we
@@ -42,14 +42,14 @@ class Description extends Component {
             />
             <br />
             <br />
-            We developed this Label on ProPublica’s Dollars for Docs
-            (2013-2015){" "}
+            We developed this Label on ProPublica’s Dollars for Docs (2013-2015){" "}
             <a
               href="https://projects.propublica.org/docdollars/"
               target="_blank"
             >
               dataset
-            </a>, which details payments made from pharmaceutical companies to
+            </a>
+            , which details payments made from pharmaceutical companies to
             doctors. You can navigate through the modules using the links on the
             left.
             <br />
@@ -57,7 +57,8 @@ class Description extends Component {
             To learn more, please visit our{" "}
             <a href="http://datanutrition.media.mit.edu/" target="_blank">
               website
-            </a>, read our{" "}
+            </a>
+            , read our{" "}
             <a
               href="http://datanutrition.media.mit.edu/abstract.pdf"
               target="_blank"
@@ -67,7 +68,8 @@ class Description extends Component {
             , or email us at{" "}
             <a href="mailto:nutrition@media.mit.edu" target="_blank">
               nutrition@media.mit.edu
-            </a>.
+            </a>
+            .
           </Grid>
         </Grid>
       </GDiv>

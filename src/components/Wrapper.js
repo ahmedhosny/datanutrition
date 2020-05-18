@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import glamorous from "glamorous";
-import Card, { CardContent } from "material-ui/Card";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
 import Section from "./Section";
 import Header from "./Header";
 import Spacer from "./Spacer";
